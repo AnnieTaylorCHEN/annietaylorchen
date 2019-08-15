@@ -1,0 +1,17 @@
+@import-normalize;
+@import './fonts.css';
+@import './header.css';
+@import './profile.css';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html {
+    --brand-blue: hsla(224, 100%, 50%, 1);
+}
+
+a:visited {
+    color: inherit;
+}

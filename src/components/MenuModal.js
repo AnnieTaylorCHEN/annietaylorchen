@@ -20,9 +20,18 @@ export default function MenuModal({
                 &times;
             </button>
             <nav className="menu-modal__menu">
-                <Link to="/about" className="header__menu__item">About</Link>
-                <Link to="/projects" className="header__menu__item">Projects</Link>
-                <Link to="/contact" className="header__menu__item">Contact</Link>
+                <div onClick={()=> handleMenuClick()} >
+                    <Link to="/" className="header__menu__item" >Home</Link>
+                </div>
+                <div onClick={()=> handleMenuClick()} >
+                    <Link to="/about" className="header__menu__item" >About</Link>
+                </div>
+                <div onClick={()=> handleMenuClick()} >
+                    <Link to="/projects" className="header__menu__item">Projects</Link> 
+                </div>
+                <div onClick={()=> handleMenuClick()} >
+                    <Link to="/contact" className="header__menu__item">Contact</Link>
+                </div>
             </nav>
         </div>
     )

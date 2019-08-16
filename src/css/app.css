@@ -2,6 +2,7 @@
 @import './fonts.css';
 @import './header.css';
 @import './profile.css';
+@import './footer.css';
 
 * {
     box-sizing: border-box;

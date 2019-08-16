@@ -2,6 +2,7 @@
 @import './fonts.css';
 @import './header.css';
 @import './profile.css';
+@import './contact.css';
 @import './footer.css';
 
 * {
@@ -12,6 +13,7 @@
 
 html {
     --brand-blue: hsla(224, 100%, 50%, 1);
+    --brand-blue--light: hsla(217, 100%, 56%, 1);
     --light-gray: hsla(0, 0%, 85%, 1);
     --gray: hsla(0, 0%, 65%, 1);
 }

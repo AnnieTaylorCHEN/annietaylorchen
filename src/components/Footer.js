@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function () {
+export default function Footer() {
     return (
         <div className="footer">
             <section className="footer__email">

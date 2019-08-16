@@ -1,8 +1,11 @@
 .contact-header {
     background: black;
     width: 100%;
-    height: 40vh;
-    padding: 10em;
+    height: 35vh;
+    max-height: 25em;
+    padding-top: 7em;
+    padding-left: 7em;
+    padding-right: 7em;
 }
 
 .contact-header__title {
@@ -26,13 +29,13 @@
 }
 
 .contact-bg {
-    background-image: linear-gradient(to right bottom, var(--gray), white);
+    background-image: linear-gradient(to right bottom, white, var(--gray));
     opacity: 0.7;
     width: 70vw;
     height: 650px;
     margin: 0 auto;
     position: relative;
-    top: -5em;
+    top: -2em;
 }
 
 .contact-form {
@@ -95,9 +98,17 @@
     transition: background-color 300ms ease-out;
 }
 
+@media (min-width: 601px ) and (max-width: 800px){
+    .contact-header {
+        padding-top: 4em;
+        padding-left: 4em;
+    }
+}
+
 @media (max-width: 600px) {
     .contact-header {
         padding: 2em;
+        max-height: 12em;
     }
 
     .contact-header__title{
@@ -108,9 +119,18 @@
         font-size: inherit;
     }
 
+    .contact-bg {
+        width: 90vw;
+    }
+
+    .contact-form {
+        width: 70%;
+    }
+
     .send {
         font-size: 1em;
         width: 100px;
         height: 100px;
     }
 }
+

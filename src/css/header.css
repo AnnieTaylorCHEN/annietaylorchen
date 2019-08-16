@@ -11,6 +11,7 @@
     font-size: 3rem; 
     text-transform: uppercase;
     text-decoration: none;
+    padding: 1em;
 }
 
 .header__menu-icon {
@@ -38,7 +39,7 @@
     height: 3px;
     margin-top: 0.2em;
     background: black;
-    transition: width 300ms;
+    transition: width 300ms ease-out;
 }
 
 .header__menu__item:hover::after{

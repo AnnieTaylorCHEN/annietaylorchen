@@ -1,45 +1,45 @@
 #profile-wrapper {
     position: relative;
     width: 100%;
-    min-height:55vw;
+    min-height: 40vw;
     overflow: hidden;
 }
 
 .layer {
     position: absolute;
     width: 100vw;
-    min-height: 55vw;
+    min-height: 40vw;
     overflow: hidden;
 }
 
 .layer .content-wrap{
     position: absolute;
     width: 100vw;
-    min-height: 55vw;
+    min-height: 40vw;
 }
 
 .layer .content-body {
     width: 25%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     text-align: center;
-    transform: translateY(-65%);
 }
 
 .layer img {
     position: absolute;
     width: 35%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 30%;
 }
 
-.layer h2 {
+.content-body__title{
     font-size: 2em;
 }
 
 .bottom {
-    background: #222;
+    background-color: #222; 
+    background-image: url('/imgs/profile-bottom-layer-bg.gif');
+    background-size: contain;
     z-index: 1;
 }
 
@@ -47,8 +47,8 @@
     right: 5%;
 }
 
-.bottom h2 {
-    color: var(--brand-blue);
+.bottom .content-body__title {
+    color: white;
 }
 
 .bottom p {
@@ -56,7 +56,9 @@
 }
 
 .top {
-    background: #eee;
+    background-color: #eee;
+    background-image: url('/imgs/profile-top-layer-bg.jpg');
+    background-size: contain;
     color: #222;
     z-index: 2;
     width: 50vw;
@@ -74,7 +76,6 @@
     background-color:red;
     width: 5px;
     top: 0;
-    left: 50%;
     z-index: 3;
 }
 
@@ -96,4 +97,15 @@
 .skewed .top .content-wrap{
     transform: skew(30deg);
     margin-left: 1000px;
+}
+
+@media (max-width: 800px) {
+    .content-body__title {
+        font-size: 0.8em;
+    }
+
+    .content-body p {
+        display: none;
+    }
+
 }

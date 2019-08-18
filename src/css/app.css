@@ -2,6 +2,7 @@
 @import './fonts.css';
 @import './header.css';
 @import './profile.css';
+@import './about.css';
 @import './contact.css';
 @import './footer.css';
 
@@ -24,4 +25,8 @@ p {
 
 a:visited {
     color: inherit;
+}
+
+img {
+    width: 100%;
 }

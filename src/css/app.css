@@ -3,6 +3,7 @@
 @import './header.css';
 @import './profile.css';
 @import './about.css';
+@import './projects.css';
 @import './contact.css';
 @import './footer.css';
 
@@ -21,6 +22,11 @@ html {
 
 p {
     padding: 0.3em 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 a:visited {

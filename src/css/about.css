@@ -108,7 +108,7 @@
 
 .skills {
     background-image: linear-gradient(to right bottom, white, var(--light-gray));
-    padding: 8em 10em;
+    padding: 4em 10em;
 }
 
 .skills h3 {

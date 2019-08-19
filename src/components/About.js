@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function About() {
     return (
@@ -10,7 +11,9 @@ export default function About() {
                     based in Stockholm, Sweden. 
                 </div>
                 <div className="about__details">
-                   <p>Although I didn’t study computer science in university and my previous career has not been programming related, I always strive the provide <span className="highlight">best service</span> for my clients. I like to help them <span className="highlight">solve problems</span>. Coding unleashes my creativity so I can build things I didn’t imagine I could do before. Now equipped with photography, graphic design and coding skills, I am ready to <span className="highlight">make a difference</span>. </p>
+                   <p>I am not a computer science major, but I work hard to be more than that. Although my previous career has not been programming related, I always strive to provide the <span className="highlight">best service</span> for my clients. I like to help them <span className="highlight">solve problems</span>. </p>
+
+                   <p>I love coding. It enhances my creativity, so I can turn things on my mind into reality. Now equipped with photography, graphic design and coding skills, I am ready to <span className="highlight">make a difference</span>. Check my <Link to="/projects"><span className="highlight">PROJECTS</span></Link> and see tools I use below. </p>
 
                    <p>Besides coding and photography, I am also a <span className="highlight">vegan cook</span> and run a lifestyle blog <span className="highlight"><a href="https://petiteandminimal.com" target="_blank" rel="noopener noreferrer">Petite &amp; Minimal</a></span>. </p>
                 

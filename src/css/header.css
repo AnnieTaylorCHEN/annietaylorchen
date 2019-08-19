@@ -9,6 +9,7 @@
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 3rem; 
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     padding: 1em;
@@ -27,6 +28,7 @@
 .header__menu__item {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
+    color: black;
     text-decoration: none;
     padding-right: 1.5rem;
     cursor: pointer;
@@ -65,6 +67,7 @@
         top: 1rem;
         right: 1rem;
         cursor: pointer;
+        z-index: 5;
     }
 
     #menu-modal__container {
@@ -75,7 +78,6 @@
         position: fixed;
         top: 0;
         right: 0;
-        transition: transform .3s cubic-bezier(0, .52, 0, 1);
         overflow: hidden;
         z-index: 1000;
         display: flex;
@@ -86,10 +88,12 @@
 
     #menu-modal__container.hide{
         transform: translate3d(100vw, 0, 0);
+        transition: transform 0.8s cubic-bezier(0, .52, 0, 1);
     }
 
     #menu-modal__container.show{
         transform: translate3d(0vw, 0, 0);
+        transition: transform 0.8s cubic-bezier(0, .52, 0, 1);
     }
 
     .menu-model__close{
@@ -105,13 +109,13 @@
     }
 
     .menu-modal__menu {
-        
         list-style-type: none;
         text-decoration: none;
         color: white;
     }
 
     .header__menu__item {
+        color: white;
         padding: 0;
     }
 

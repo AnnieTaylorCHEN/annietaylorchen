@@ -28,6 +28,10 @@
     grid-row: 1 / 2;
 }
 
+.site-links a{
+    color: black;
+}
+
 .social-links {
     grid-column: 4 / 5; 
     grid-row: 1 / 2;
@@ -37,8 +41,8 @@
 }
 
 .social-links img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     margin: 1rem;
 }
 

@@ -8,38 +8,38 @@ export default function Projects() {
             <div className="projects">
 
                 <div className="project">
-                    <Link to="/about" target="_blank">
+                    <Link to="/about">
                         <img src="imgs/project-IA-cover.png" alt="project Ingers Alternativ cover"/>
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about" target="_blank" ><span>View More</span></Link>
+                        <Link to="/about" ><span>View More</span></Link>
                     </span>
                 </div>
 
                 <div className="project">
-                    <Link to="/about" target="_blank">
+                    <Link to="/about" >
                         <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about" target="_blank" ><span>View More</span></Link>
+                        <Link to="/about"><span>View More</span></Link>
                     </span>
                 </div>
 
                 <div className="project">
-                    <Link to="/about" target="_blank">
+                    <Link to="/about">
                         <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about" target="_blank" ><span>View More</span></Link>
+                        <Link to="/about" ><span>View More</span></Link>
                     </span>
                 </div>
 
                 <div className="project">
-                    <Link to="/about" target="_blank">
+                    <Link to="/about">
                         <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about" target="_blank" ><span>View More</span></Link>
+                        <Link to="/about" ><span>View More</span></Link>
                     </span>
                 </div>
 

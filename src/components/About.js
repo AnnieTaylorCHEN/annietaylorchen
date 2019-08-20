@@ -105,6 +105,14 @@ export default function About() {
                         <p>Git</p>
                     </div>
                     <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/heroku.svg" alt="heroku logo" />
+                        <p>Heroku</p>
+                    </div>
+                    <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/netlify.svg" alt="netlify logo" />
+                        <p>Netlify</p>
+                    </div>
+                    <div className="skills__item">
                         <img className="skills__item__img" src="imgs/linux-mint.svg" alt="linux-mint logo" />
                         <p>Linux-Mint</p>
                     </div>

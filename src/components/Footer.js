@@ -14,6 +14,7 @@ export default function Footer() {
                 <div className="site-links">
                     <Link to="/about" className="header__menu__item">About</Link>
                     <Link to="/projects" className="header__menu__item">Projects</Link>
+                    <a href="imgs/Annie-Taylor-CHEN-resume.pdf" className="header__menu__item" target="_blank" rel="noopener noreferrer">Resume</a>
                     <Link to="/contact" className="header__menu__item">Contact</Link>
                     <a href="https://petiteandminimal.com" className="header__menu__item" target="_blank" rel="noopener noreferrer">Petite &amp; Minimal</a>
                 </div>

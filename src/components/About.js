@@ -63,6 +63,10 @@ export default function About() {
                         <p>React</p>
                     </div>
                     <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/redux.svg" alt="redux logo" />
+                        <p>Redux</p>
+                    </div>
+                    <div className="skills__item">
                         <img className="skills__item__img" src="imgs/jest.svg" alt="jest logo" />
                         <p>Jest</p>
                     </div>
@@ -137,6 +141,14 @@ export default function About() {
                     <div className="skills__item">
                         <img className="skills__item__img" src="imgs/figma.svg" alt="figma logo" />
                         <p>Figma</p>
+                    </div>
+                    <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/canva.svg" alt="canva logo" />
+                        <p>Canva</p>
+                    </div>
+                    <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/pixlr.svg" alt="pixlr logo" />
+                        <p>Pixlr</p>
                     </div>
                 </div>
 

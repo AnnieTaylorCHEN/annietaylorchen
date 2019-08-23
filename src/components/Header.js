@@ -13,7 +13,7 @@ export default function Header() {
         <div>
             <div className="header__container">
                 <div className="header__menu-icon" onClick={(e)=> handleMenuClick()} >
-                    <img src="./imgs/hamburgericon.svg" alt="menu"/>   
+                    <img src="/imgs/hamburgericon.svg" alt="menu"/>   
                 </div>
                 
                <MenuModal handleMenuClick={() => handleMenuClick()} menuVisibility={visible} />

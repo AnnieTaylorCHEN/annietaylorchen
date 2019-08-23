@@ -1,0 +1,136 @@
+.inger-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "rebrand rebrand rebrandimg rebrandimg rebrandimg"
+    "senior senior senior . ."
+    "ba ba ba ba ba"
+    "video video video video videotext " 
+    "challenge challenge card card card";
+    grid-column-gap: 1em;
+    grid-row-gap: 5em;
+    padding: 2em 12em;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.inger-rebrand{
+    grid-area: rebrand;
+    margin-right: 4em;
+}
+
+.rebrandimg {
+    grid-area: rebrandimg;
+    max-height: 450px;
+}
+
+.rebrandimg img {
+    max-height: auto;
+}
+
+.inger-senior {
+    grid-area: senior;
+    margin: 4em 0;
+}
+
+.inger-ba {
+    grid-area: ba;
+    display: flex;
+}
+
+.inger-ba > div{
+    margin: 0 2em;
+}
+
+.inger-ba video {
+    width: 90%;
+}
+
+.inger-video {
+    grid-area: video;
+}
+
+.inger-videotext {
+    grid-area: videotext;
+    padding: 0 2em;
+}
+
+.inger-challenge {
+    grid-area: challenge;
+    margin-right: 4em;
+}
+
+.inger-card {
+    grid-area: card;
+    display: flex;
+    flex-direction: column;
+}
+
+.inger-old-card {
+    transform: rotate(20deg) translateX(20%) translateY(10%);
+    width: 65%;
+    z-index: 2;
+}
+
+.inger-old-card .before {
+    left: 75%;
+    transform: skewX(30deg) rotate(30deg) translateY(10%);
+}
+
+@media (max-width: 1025px) and (min-width: 801px) {
+    .inger-grid {
+        padding: 2em 4em;
+        grid-row-gap: 1em;
+    }
+
+    .inger-grid .project-text {
+        font-size: 1em;
+    }
+
+    iframe {
+        height: 450px;
+    }
+}
+
+@media (max-width: 800px) {
+    .inger-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "rebrand"
+        "rebrandimg"
+        "senior"
+        "ba"
+        "video"
+        "videotext " 
+        "challenge"
+        "card";
+        padding: 1em 2em;
+        grid-row-gap: 1em;
+    }
+
+    .inger-grid .project-text {
+        font-size: 1em;
+    }
+
+    .inger-senior {
+        margin: 1em 0;
+    }
+
+    .inger-ba {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inger-ba video {
+        width: 100%;
+    }
+
+    .inger-videotext{
+        padding: 0;
+    }
+
+    iframe {
+        height: auto;
+    }
+}

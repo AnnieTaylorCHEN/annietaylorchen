@@ -8,11 +8,11 @@ export default function Projects() {
             <div className="projects">
 
                 <div className="project">
-                    <Link to="/about">
+                    <Link to="/projects/ingersalternativ">
                         <img src="imgs/project-IA-cover.png" alt="project Ingers Alternativ cover"/>
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about" ><span>View More</span></Link>
+                        <Link to="/projects/ingersalternativ" ><span>View More</span></Link>
                     </span>
                 </div>
 

@@ -115,6 +115,12 @@
     transform: skewX(-30deg) rotate(-30deg) translateY(30%);
 }
 
+.back-to-projects {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+
 @media (max-width: 1025px) and (min-width: 601px){
     .project-grid {
         padding: 2em 6em;
@@ -131,6 +137,10 @@
     .before, .after {
         font-size: 1em;
         padding: 1em;
+    }
+
+    .back-to-projects {
+        width: 35%;  
     }
 }
 
@@ -173,5 +183,9 @@
     .before, .after{
         font-size: 0.7em;
         padding: 0.7em;
+    }
+
+    .back-to-projects {
+        width: 50%;  
     }
 }

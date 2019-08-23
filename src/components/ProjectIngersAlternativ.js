@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function ProjectIngersAlternativ() {
     return (
@@ -91,6 +92,9 @@ export default function ProjectIngersAlternativ() {
                         <div className="after">after</div>
                     </div>
                 </div>            
+            </section>
+            <section>
+                <Link to="/projects" className="demo-code--button back-to-projects">Back to Projects</Link>
             </section>
         </>
     )

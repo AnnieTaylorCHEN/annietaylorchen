@@ -6,6 +6,7 @@ import Header from './Header';
 import About from './About'
 import Projects from './Projects'
 import ProjectIngersAlternativ from './ProjectIngersAlternativ'
+import ProjectMeowlo from './ProjectMeowlo'
 import Contact from './Contact'
 import Footer from './Footer'
 import Profile from './Profile'
@@ -19,7 +20,8 @@ export default function () {
                 <Route exact path="/" component={Profile} />
                 <Route path="/about" component={About} />
                 <Route exact path="/projects" component={Projects} />
-                <Route exact path="/projects/ingersalternativ" component={ProjectIngersAlternativ} />
+                <Route path="/projects/ingersalternativ" component={ProjectIngersAlternativ} />
+                <Route path="/projects/meowlo" component={ProjectMeowlo} />
                 <Route path="/contact" component={Contact} />
                 <Footer />
             </div>

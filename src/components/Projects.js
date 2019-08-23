@@ -12,22 +12,22 @@ export default function Projects() {
                         <img src="imgs/project-IA-cover.png" alt="project Ingers Alternativ cover"/>
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/projects/ingersalternativ" ><span>View More</span></Link>
+                        <Link to="/projects/ingersalternativ"><span>View More</span></Link>
                     </span>
                 </div>
 
                 <div className="project">
-                    <Link to="/about" >
+                    <Link to="/projects/meowlo" >
                         <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about"><span>View More</span></Link>
+                        <Link to="/projects/meowlo"><span>View More</span></Link>
                     </span>
                 </div>
 
                 <div className="project">
                     <Link to="/about">
-                        <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
+                        <img src="imgs/coming-soon.png" alt="project Meowlo cover" />
                     </Link>
                     <span className="project-overlay">
                         <Link to="/about" ><span>View More</span></Link>
@@ -36,7 +36,7 @@ export default function Projects() {
 
                 <div className="project">
                     <Link to="/about">
-                        <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
+                        <img src="imgs/coming-soon.png" alt="project Meowlo cover" />
                     </Link>
                     <span className="project-overlay">
                         <Link to="/about" ><span>View More</span></Link>

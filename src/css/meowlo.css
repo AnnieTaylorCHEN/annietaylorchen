@@ -1,0 +1,57 @@
+.meowlo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "story story video video video"
+    "video2 video2 video2 story2 story2";
+    grid-column-gap: 1em;
+    grid-row-gap: 5em;
+    padding: 2em 12em;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.meowlo-story {
+    grid-area: story;
+    margin-right: 4em;
+}
+
+.meowlo-video {
+    grid-area: video;
+}
+
+.meowlo-story2 {
+    grid-area: story2;
+    margin-left: 4em;
+}
+
+.meowlo-video2 {
+    grid-area: video2;
+}
+
+@media (max-width: 1025px) and (min-width: 801px) {
+    .meowlo-grid {
+        padding: 2em 4em;
+    }
+
+    .project-text {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 800px) {
+    .meowlo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "story"
+        "video"
+        "story2"
+        "video2";
+        padding: 1em 2em;
+    }
+
+    .meowlo-story, .meowlo-story2 {
+        margin: 0em;
+    }
+}

@@ -26,11 +26,11 @@ export default function Projects() {
                 </div>
 
                 <div className="project">
-                    <Link to="/about">
-                        <img src="imgs/coming-soon.png" alt="project Meowlo cover" />
+                    <Link to="/projects/thirtysecondstomars">
+                        <img src="imgs/project-mars-cover.png" alt="project Thirty Seconds to Mars cover" />
                     </Link>
                     <span className="project-overlay">
-                        <Link to="/about" ><span>View More</span></Link>
+                        <Link to="/projects/thirtysecondstomars" ><span>View More</span></Link>
                     </span>
                 </div>
 

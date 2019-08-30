@@ -7,6 +7,7 @@ import About from './About'
 import Projects from './Projects'
 import ProjectIngersAlternativ from './ProjectIngersAlternativ'
 import ProjectMeowlo from './ProjectMeowlo'
+import ProjectMars from './ProjectMars'
 import Contact from './Contact'
 import Footer from './Footer'
 import Profile from './Profile'
@@ -22,6 +23,7 @@ export default function () {
                 <Route exact path="/projects" component={Projects} />
                 <Route path="/projects/ingersalternativ" component={ProjectIngersAlternativ} />
                 <Route path="/projects/meowlo" component={ProjectMeowlo} />
+                <Route path="/projects/thirtysecondstomars" component={ProjectMars} />
                 <Route path="/contact" component={Contact} />
                 <Footer />
             </div>

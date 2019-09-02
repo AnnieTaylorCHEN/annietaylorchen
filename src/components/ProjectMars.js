@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 export default function ProjectMars() {
     return (
-        <>
+        <div>
             <section className="project-grid">
                 <div className="project-intro">
                     <h2 className="project-title">The Making of Thirty Seconds to Mars</h2>
-                    <p className="project-text">I’m a big fan of Thirty Seconds to Mars. I wish I had been to all of their concerts. This website is a nostalgic corner I built for myself and other Mars fans, where I turn back time and revisit some moments (and practice coding).  </p>
+                    <p className="project-text">I’m a big fan of Thirty Seconds to Mars. I wish I had been to all of their concerts. This website is a nostalgic corner I built for myself and other Mars fans, where I turn back time and revisit some moments (and practice coding). </p>
                 </div>
             
                 <div className="did">
@@ -15,9 +15,11 @@ export default function ProjectMars() {
                     <ol>
                         <li className="did-list-item">Content Creation</li>
                         <li className="did-list-item">Web Development</li>
+                        <li className="did-list-item">E-commerce</li>
                         <li className="did-list-item">Image and Video Processing </li>
                     </ol>
                 </div>
+
                 <div className="tech">
                 <h3 className="project-subtitle">Tech I used</h3>
                     <ol>
@@ -29,41 +31,60 @@ export default function ProjectMars() {
                         <li className="did-list-item">React</li>
                         <li className="did-list-item">Redux</li>
                         <li className="did-list-item">MongoDB</li>
+                        <li className="did-list-item">Stripe</li>
                     </ol>
                 </div>
                 <div className="demo-code">
-                    <a className="demo-code--button" href="https://meowlo.herokuapp.com/" target="_blank" rel="noopener noreferrer">LIVE DEMO</a>
-                    <a className="demo-code--button" href="https://github.com/AnnieTaylorCHEN/Meowlo" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
+                    <a className="demo-code--button" href="https://thirtysecondstomars.herokuapp.com/" target="_blank" rel="noopener noreferrer">LIVE DEMO</a>
+                    <a className="demo-code--button" href="https://github.com/AnnieTaylorCHEN/30stoMars" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
                 </div> 
             </section>
 
-            <section className="meowlo-grid">
-                <div className="meowlo-story">
-                    <h4 className="context-subtitle">How I started</h4>
-                    <p className="project-text">It all started with a code review project that I collaborated with a friend. I had several small javascript projects and I thought it would be a fun idea to organize them into one project with a theme. I was a bit tired so I started to use a few fun cat pictures in it, and voila! Meowlo was born. </p>
-                    
+            <section className="mars-grid">
+                <div className="mars-story1">
+                    <h4 className="context-subtitle">The Story</h4>
+                    <p className="project-text">I want to go back to 2015 and promote a European tour for the band. I used some footage from their European tours, where national flags of European countries were featured while Jared was dancing on the stage. The video has to be concise and exciting, with a “good wish” and “celebration” as end.</p>
+                    <p className="project-text">I also want to go through a brief history of the band and their albums, where the background images should reflect the creative spirit of each era, which corresponds to the theme of the album. </p>
                 </div>
-                <div className="meowlo-video">
+                <div className="mars-video1">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/meowlo-video.mp4" type="video/mp4" />
+                        <source src="/imgs/mars-story.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>
-                <div className="meowlo-video2">
+                <div className="mars-video2">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/meowlo-video2.mp4" type="video/mp4" />
+                        <source src="/imgs/mars-shop.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>
-                <div className="meowlo-story2">
-                    <p className="project-text">I wrote a back story of a group of cats that want to work to gain more benefits. As a serious startup, they not only have registered address and phone, but also a website that offers valuable services to humans (especially those cat lovers). When I showed this website to a friend, she asked if I really have an office dog, ;) That proves how realistic our Meowlo startup is, non? </p>
-                    <p className="project-text">This project is still on-going, as long as I find something fun to play with, you might get to see a new small demo in Meowlo. </p>
+                <div className="mars-story2">
+                    <h4 className="context-subtitle">The Shop</h4>
+                    <p className="project-text">The shop page is a simple e-commerce store, where albums and merchandises can be found. I simply want to practice how to load items from MongoDB database, and build a simple shopping cart where people can pay via Stripe. Of course it’s the simplest mode, for real business we would need to write more customized checkout pages. ;) The biggest challenge I met was to get the right amount of money matched in the front-end, back-end, database as well as the calculation parameters in Stripe. 
+                    </p>
+                </div>
+                <div className="mars-story3">
+                    <h4 className="context-subtitle">The Echelon</h4>
+                    <p className="project-text">The Echelon is the community for dedicated fans. Here fans get exclusive news from the band, such as tour photos, announcement of new single releases, new videos, ticket giveaways etc. I want to make it as a pin board for the band to paste messages, photos, audio and video. 
+                    </p>
+                    <p className="project-text">There is also a simple message board where fans can create post and comments. The biggest challenge for me is to make sure all the data are sent correctly and render correctly, and I like small cute touch such as an animated heart when people like a post, or to edit post or comment on site. </p>
+                    <p className="project-text">Obviously, the Guardians of the Galaxy guys were the first ones to occupy this section once I released the site, since Star-Lord discovered the Up in the Air in the space. Do you want to know more story about it? Read it in the Echelon section. &#x1f609;</p>
+                    <video width="100%" height="auto" muted loop autoPlay playsInline >
+                        <source src="/imgs/mars-heart.mp4" type="video/mp4" />
+                        Your browser doesn't support the video tag.
+                    </video>
+                </div>
+                <div className="mars-video3">
+                    <video width="100%" height="auto" muted loop autoPlay playsInline >
+                        <source src="/imgs/mars-echelon.mp4" type="video/mp4" />
+                        Your browser doesn't support the video tag.
+                    </video>
                 </div>
             </section>
 
             <section>
                 <Link to="/projects" className="demo-code--button back-to-projects">Back to Projects</Link>
             </section>
-        </>
+        </div>
     )
 }

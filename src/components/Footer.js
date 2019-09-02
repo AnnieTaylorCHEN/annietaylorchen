@@ -22,7 +22,7 @@ export default function Footer() {
                 <div className="social-links">
                     <a href="https://www.linkedin.com/in/annietaylorchen/" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/linkedin.svg" alt="annietaylorchen-linkedin" /></a>
                     <a href="https://github.com/AnnieTaylorCHEN" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/github.svg" alt="annietaylorchen-github" /></a>
-                    <a href="https://www.goodreads.com/user/show/18792704-annie-taylor-chen" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/goodreads.svg" alt="annietaylorchen-goodreads" /></a>
+                    <a href="https://www.goodreads.com/annietaylorchen" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/goodreads.svg" alt="annietaylorchen-goodreads" /></a>
                     <a href="https://www.facebook.com/PetiteandMinimal/" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/facebook.svg" alt="annietaylorchen-facebook" /></a>
                     <a href="https://twitter.com/petiteminimal" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/twitter.svg" alt="annietaylorchen-twitter" /></a>
                     <a href="https://www.instagram.com/petiteandminimal/" className="header__menu__item" target="_blank" rel="noopener noreferrer"><img src="/imgs/instagram.svg" alt="annietaylorchen-instagram" /></a>

@@ -1,0 +1,21 @@
+html {
+    font-family: 'Hi Melody', cursive;
+    margin: 0;
+}
+
+a {
+    color: darkgreen
+}
+
+.bg {
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5em;
+    color: darkgreen;
+}

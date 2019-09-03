@@ -60,7 +60,7 @@ export default function ProjectMars() {
                 </div>
                 <div className="mars-story2">
                     <h4 className="context-subtitle">The Shop</h4>
-                    <p className="project-text">The shop page is a simple e-commerce store, where albums and merchandises can be found. I simply want to practice how to load items from MongoDB database, and build a simple shopping cart where people can pay via Stripe. Of course it’s the simplest mode, for real business we would need to write more customized checkout pages. ;) The biggest challenge I met was to get the right amount of money matched in the front-end, back-end, database as well as the calculation parameters in Stripe. 
+                    <p className="project-text">The shop page is a simple e-commerce store, where albums and merchandises can be found. I simply want to practice how to load items from MongoDB database, and build a simple shopping cart where people can pay via Stripe. Of course it’s the simplest mode, for real business we would need to write more customized checkout pages. <span role="img" aria-label="wink face">&#x1f609;</span> The biggest challenge I met was to get the right amount of money matched in the front-end, back-end, database as well as the calculation parameters in Stripe. 
                     </p>
                 </div>
                 <div className="mars-story3">
@@ -68,7 +68,7 @@ export default function ProjectMars() {
                     <p className="project-text">The Echelon is the community for dedicated fans. Here fans get exclusive news from the band, such as tour photos, announcement of new single releases, new videos, ticket giveaways etc. I want to make it as a pin board for the band to paste messages, photos, audio and video. 
                     </p>
                     <p className="project-text">There is also a simple message board where fans can create post and comments. The biggest challenge for me is to make sure all the data are sent correctly and render correctly, and I like small cute touch such as an animated heart when people like a post, or to edit post or comment on site. </p>
-                    <p className="project-text">Obviously, the Guardians of the Galaxy guys were the first ones to occupy this section once I released the site, since Star-Lord discovered the Up in the Air in the space. Do you want to know more story about it? Read it in the Echelon section. &#x1f609;</p>
+                    <p className="project-text">Obviously, the Guardians of the Galaxy guys were the first ones to occupy this section once I released the site, since Star-Lord discovered the Up in the Air in the space. Do you want to know more story about it? Read it in the Echelon section.  <span role="img" aria-label="wink face">&#x1f609;</span></p>
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
                         <source src="/imgs/mars-heart.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.

@@ -34,7 +34,7 @@ export default function Profile() {
                   <h2 className="content-body__title">Full-Stack Developer</h2>
                   <p>Building digital products with amazing UI/UX through clean code.</p> 
                 </div>
-                <img src="/imgs/1.jpg" alt="Annie Taylor CHEN - full-stack developer" />
+                <img src="/imgs/annie-coding.png" alt="Annie Taylor CHEN - full-stack developer" />
               </div>
             </div>
 
@@ -44,7 +44,7 @@ export default function Profile() {
                   <h2 className="content-body__title">Photographer</h2>
                   <p>Creating beautiful photos with design in mind.</p>
                 </div>
-                <img src="/imgs/2.jpg" alt="Annie Taylor CHEN - photographer" />
+                <img src="/imgs/annie-on-the-moon.png" alt="Annie Taylor CHEN - photographer" />
               </div>
             </div>
 

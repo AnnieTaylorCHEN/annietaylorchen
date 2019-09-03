@@ -79,7 +79,7 @@ export default function ProjectIngersAlternativ() {
                 <div className="inger-challenge">
                     <h4 className="context-subtitle">Challenge we had</h4>
                     <p className="project-text">One thing I never realized before was that many seniors don’t update their software as often as possible. So soon after we launched the brand new site, people were reporting that it was not showing up correctly. I realized that they were still using vintage IE that is notorious for bad behavior! I didn’t want to compromise our design and frankly, I don’t think it’s fair to adapt to the out-of-date browsers because if customers keep using those browsers, they also face fatal risks for their online activities. I decided to go with javascript that detects people’s vintage browsers and asks them to update. I also urged my client to inform her existing customers (by email and phone) to update their browsers, and provided related article links to educate them the importance of using modern updated browsers. </p>
-                    <p className="project-text">It was a happy ending. &#9786; </p>
+                    <p className="project-text">It was a happy ending.  <span role="img" aria-label="smiley face">&#9786;</span>  </p>
                 </div>
 
                 <div className="inger-card">

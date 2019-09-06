@@ -15,9 +15,9 @@ export default function About() {
 
                    <p>I love coding. It enhances my creativity, so I can turn things on my mind into reality. Now equipped with photography, graphic design and coding skills, I am ready to <span className="highlight">make a difference</span>. </p>
                    
-                   <p>Check my <Link to="/projects"><span className="highlight">PROJECTS</span></Link> and see tools I use below. You can also download my <span className="highlight"><a href="imgs/Annie-Taylor-CHEN-resume.pdf" target="_blank" rel="noopener noreferrer">RESUME</a></span> or check me on <span className="highlight"><a href="https://www.linkedin.com/in/annietaylorchen/" target="_blank" rel="noopener noreferrer" >LinkedIn.</a></span></p> 
+                   <p>Check my <Link to="/projects"><span className="about-links">PROJECTS</span></Link> and see tools I use below. You can also download my <span className="about-links"><a href="imgs/Annie-Taylor-CHEN-resume.pdf" target="_blank" rel="noopener noreferrer">RESUME</a></span> or check me on <span className="about-links"><a href="https://www.linkedin.com/in/annietaylorchen/" target="_blank" rel="noopener noreferrer" >LinkedIn.</a></span></p> 
 
-                   <p>Besides those, I am also a <span className="highlight">vegan cook</span> and run a lifestyle blog <span className="highlight"><a href="https://petiteandminimal.com" target="_blank" rel="noopener noreferrer">Petite &amp; Minimal</a></span>. </p>
+                   <p>Besides those, I am also a <span className="highlight">vegan cook</span> and run a lifestyle blog <span className="about-links"><a href="https://petiteandminimal.com" target="_blank" rel="noopener noreferrer">Petite &amp; Minimal</a></span>. </p>
                 
                    <p>Principles I believe in:</p>
                 </div>

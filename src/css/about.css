@@ -16,6 +16,18 @@
     color: var(--brand-blue--light);
 }
 
+.about-links {
+    color: var(--brand-blue--light);
+    background: white;
+    padding: 0.3em;
+    margin: 0 0.1em;
+}
+
+.about-links:hover {
+    color: white;
+    background: var(--brand-blue--light);
+}
+
 .about__intro {
     grid-area: intro;
     font-size: 3em;

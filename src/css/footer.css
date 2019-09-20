@@ -11,7 +11,12 @@
     padding-bottom: 3rem;
 }
 
+.footer__email p:nth-child(2) {
+    margin-bottom: 0.8em;
+}
+
 .footer__email a {
+    color: var(--brand-blue);
     text-decoration: none;
 }
 
@@ -69,7 +74,7 @@
     text-align: right;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
     .footer {
         padding: 2.5em;
     }

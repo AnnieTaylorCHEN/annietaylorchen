@@ -37,6 +37,7 @@ export default function ProjectMars() {
                 <div className="demo-code">
                     <a className="demo-code--button" href="https://thirtysecondstomars.herokuapp.com/" target="_blank" rel="noopener noreferrer">LIVE DEMO</a>
                     <a className="demo-code--button" href="https://github.com/AnnieTaylorCHEN/30stoMars" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
+                    <small>You might experience 5-20 seconds delay for app to wake up sometimes, please be patient. Thanks!</small>
                 </div> 
             </section>
 

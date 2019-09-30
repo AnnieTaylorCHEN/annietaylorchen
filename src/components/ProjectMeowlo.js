@@ -33,6 +33,7 @@ export default function ProjectMeowlo() {
                 <div className="demo-code">
                     <a className="demo-code--button" href="https://meowlo.herokuapp.com/" target="_blank" rel="noopener noreferrer">LIVE DEMO</a>
                     <a className="demo-code--button" href="https://github.com/AnnieTaylorCHEN/Meowlo" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
+                    <small>You might experience 5-20 seconds delay for app to wake up sometimes, please be patient. Thanks!</small>
                 </div> 
             </section>
 
@@ -55,7 +56,7 @@ export default function ProjectMeowlo() {
                     </video>
                 </div>
                 <div className="meowlo-story2">
-                    <p className="project-text">I wrote a back story of a group of cats that want to work to gain more benefits. As a serious startup, they not only have registered address and phone, but also a website that offers valuable services to humans (especially those cat lovers). When I showed this website to a friend, she asked if I really have an office dog, ;) That proves how realistic our Meowlo startup is, non? </p>
+                    <p className="project-text">I wrote a back story of a group of cats that want to work to gain more benefits. As a serious startup, they not only have registered address and phone, but also a website that offers valuable services to humans (especially those cat lovers). When I showed this website to a friend, she asked if I really have an office dog, <span role="img" aria-label="wink face">&#128521;</span> That proves how realistic our Meowlo startup is, non? </p>
                     <p className="project-text">This project is still on-going, as long as I find something fun to play with, you might get to see a new small demo in Meowlo. </p>
                 </div>
             </section>

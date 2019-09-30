@@ -20,7 +20,7 @@
 html {
     --brand-blue: hsla(224, 75%, 50%, 1);
     --brand-blue--light: hsla(217, 100%, 56%, 1);
-    --light-gray: hsla(0, 0%, 85%, 1);
+    --light-gray: hsla(0, 0%, 90%, 0.5);
     --gray: hsla(0, 0%, 65%, 1);
 }
 

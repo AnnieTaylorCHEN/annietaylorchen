@@ -1,6 +1,6 @@
 .about {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -14,18 +14,6 @@
 
 .highlight {
     color: var(--brand-blue--light);
-}
-
-.about-links {
-    color: var(--brand-blue--light);
-    background: white;
-    padding: 0.3em;
-    margin: 0 0.1em;
-}
-
-.about-links:hover {
-    color: white;
-    background: var(--brand-blue--light);
 }
 
 .about__intro {

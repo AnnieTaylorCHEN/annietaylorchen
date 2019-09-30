@@ -71,6 +71,12 @@
     opacity: 1;
 }
 
+.project__summary {
+    padding: 2em;
+    text-align: center;
+    background-color: var(--light-gray);
+}
+
 @media (max-width:1025px) and (min-width: 601px) {
     .projects-title {
         font-size: 2em;

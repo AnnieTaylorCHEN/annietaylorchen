@@ -69,6 +69,10 @@ export default function About() {
                         <p>Jest</p>
                     </div>
                     <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/postman.svg" alt="postman logo" />
+                        <p>Postman</p>
+                    </div>
+                    <div className="skills__item">
                         <img className="skills__item__img" src="imgs/webpack.svg" alt="webpack logo" />
                         <p>Webpack</p>
                     </div>

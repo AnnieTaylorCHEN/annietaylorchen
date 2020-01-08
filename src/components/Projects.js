@@ -13,7 +13,7 @@ export default function Projects() {
                     </Link>
                     <div className="project__summary">
                         <p>A MERN website for band - promotion, e-commerce, community.</p>
-                        <p>HTML, CSS, Javascript, React, Redux, MongoDB, Node.js, Stripe</p>
+                        <p>React, Redux, MongoDB, Node.js, Stripe</p>
                     </div>
                     <span className="project-overlay">
                         <Link to="/projects/thirtysecondstomars" ><span>View More</span></Link>

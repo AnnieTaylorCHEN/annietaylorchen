@@ -21,11 +21,8 @@ export default function ProjectMeowlo() {
                 <div className="tech">
                 <h3 className="project-subtitle">Tech I used</h3>
                     <ol>
-                        <li className="did-list-item">HTML5</li>
-                        <li className="did-list-item">CSS3</li>
                         <li className="did-list-item">Javascript</li>
                         <li className="did-list-item">Node.js</li>
-                        <li className="did-list-item">Express.js</li>
                         <li className="did-list-item">Handlebars.js</li>
                         <li className="did-list-item">Several API</li>
                     </ol>

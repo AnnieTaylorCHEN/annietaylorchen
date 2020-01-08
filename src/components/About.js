@@ -77,14 +77,6 @@ export default function About() {
                         <p>Webpack</p>
                     </div>
                     <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/wordpress.svg" alt="wordpress logo" />
-                        <p>Wordpress</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/woocommerce.svg" alt="woocommerce logo" />
-                        <p>WooCommerce</p>
-                    </div>
-                    <div className="skills__item">
                         <img className="skills__item__img" src="imgs/nodejs.svg" alt="nodejs logo" />
                         <p>Node.js</p>
                     </div>
@@ -151,42 +143,6 @@ export default function About() {
                     <div className="skills__item">
                         <img className="skills__item__img" src="imgs/pixlr.svg" alt="pixlr logo" />
                         <p>Pixlr</p>
-                    </div>
-                </div>
-
-                <h3>Project Management + Digital Marketing</h3>
-                <div className="skills__option">
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/jira.svg" alt="jira logo" />
-                        <p>JIRA</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/trello.svg" alt="trello logo" />
-                        <p>Trello</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/zenkit.png" alt="zenkit logo" />
-                        <p>Zenkit</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/slack.svg" alt="slack logo" />
-                        <p>Slack</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/discord.svg" alt="discord logo" />
-                        <p>Discord</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/seo.png" alt="seo logo" />
-                        <p>SEO</p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/social.png" alt="social logo" />
-                        <p>Marketing strategy </p>
-                    </div>
-                    <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/google-analytics.svg" alt="google-analytics logo" />
-                        <p>Google Analytics</p>
                     </div>
                 </div>
 

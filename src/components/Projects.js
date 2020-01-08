@@ -7,16 +7,16 @@ export default function Projects() {
             <h2 className="projects-title">Projects</h2>
             <div className="projects">
 
-                <div className="project">
-                    <Link to="/projects/ingersalternativ">
-                        <img src="imgs/project-IA-cover.png" alt="project Ingers Alternativ cover"/>
+            <div className="project">
+                    <Link to="/projects/thirtysecondstomars">
+                        <img src="imgs/project-mars-cover.png" alt="project Thirty Seconds to Mars cover" />
                     </Link>
                     <div className="project__summary">
-                        <p>A static website for a therapist.</p>
-                        <p>HTML, CSS, Javascript</p>
+                        <p>A MERN website for band - promotion, e-commerce, community.</p>
+                        <p>HTML, CSS, Javascript, React, Redux, MongoDB, Node.js, Stripe</p>
                     </div>
                     <span className="project-overlay">
-                        <Link to="/projects/ingersalternativ"><span>View More</span></Link>
+                        <Link to="/projects/thirtysecondstomars" ><span>View More</span></Link>
                     </span>
                 </div>
 
@@ -34,15 +34,15 @@ export default function Projects() {
                 </div>
 
                 <div className="project">
-                    <Link to="/projects/thirtysecondstomars">
-                        <img src="imgs/project-mars-cover.png" alt="project Thirty Seconds to Mars cover" />
+                    <Link to="/projects/ingersalternativ">
+                        <img src="imgs/project-IA-cover.png" alt="project Ingers Alternativ cover"/>
                     </Link>
                     <div className="project__summary">
-                        <p>A MERN website for band - promotion, e-commerce, community.</p>
-                        <p>HTML, CSS, Javascript, React, Redux, MongoDB, Node.js, Stripe</p>
+                        <p>A static website for a therapist.</p>
+                        <p>HTML, CSS, Javascript</p>
                     </div>
                     <span className="project-overlay">
-                        <Link to="/projects/thirtysecondstomars" ><span>View More</span></Link>
+                        <Link to="/projects/ingersalternativ"><span>View More</span></Link>
                     </span>
                 </div>
 

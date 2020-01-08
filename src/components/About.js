@@ -53,12 +53,12 @@ export default function About() {
                         <p>Javascript</p>
                     </div>
                     <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/sass.svg" alt="sass logo" />
-                        <p>Sass</p>
-                    </div>
-                    <div className="skills__item">
                         <img className="skills__item__img" src="imgs/react.svg" alt="react logo" />
                         <p>React</p>
+                    </div>
+                    <div className="skills__item">
+                        <img className="skills__item__img" src="imgs/gatsby.svg" alt="gatsby logo" />
+                        <p>Gatsby</p>
                     </div>
                     <div className="skills__item">
                         <img className="skills__item__img" src="imgs/redux.svg" alt="redux logo" />

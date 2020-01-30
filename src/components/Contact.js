@@ -5,7 +5,6 @@ export default function Contact () {
         <div>
             <div className="contact-header">
                 <h2 className="contact-header__title">Tell me what you have in mind.</h2>
-                <a href="mailto:annietaylorchen@gmail.com">annie.taylor.chen@gmail.com</a>
             </div>
 
             <div className="contact">

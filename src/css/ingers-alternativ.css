@@ -6,7 +6,8 @@
     "rebrand rebrand rebrandimg rebrandimg rebrandimg"
     "senior senior senior . ."
     "ba ba ba ba ba"
-    "video video video video videotext " 
+    "video video video video video " 
+    "videotext videotext videotext videotext videotext"
     "challenge challenge card card card";
     grid-column-gap: 1em;
     grid-row-gap: 5em;
@@ -67,18 +68,22 @@
     flex-direction: column;
 }
 
+.inger-old-card-container {
+    position: relative;
+}
+
 .inger-old-card {
     transform: rotate(20deg) translateX(20%) translateY(10%);
     width: 65%;
     z-index: 2;
 }
 
-.inger-old-card .before {
-    left: 75%;
-    transform: skewX(30deg) rotate(30deg) translateY(10%);
+.inger-old-card-container .ba-tag {
+    left: 20%;
+    z-index: 1;
 }
 
-@media (max-width: 1025px) and (min-width: 801px) {
+@media (max-width: 1400px) and (min-width: 801px) {
     .inger-grid {
         padding: 2em 4em;
         grid-row-gap: 1em;
@@ -87,11 +92,9 @@
     .inger-grid .project-text {
         font-size: 1em;
     }
-
-    iframe {
-        height: 450px;
-    }
+    
 }
+
 
 @media (max-width: 800px) {
     .inger-grid {
@@ -110,7 +113,12 @@
     }
 
     .inger-grid .project-text {
+        padding: 0rem 1rem;
         font-size: 1em;
+    }
+
+    .inger-rebrand, .inger-challenge {
+        margin: 0 auto;
     }
 
     .inger-senior {
@@ -130,6 +138,12 @@
         padding: 0;
     }
 
+    iframe {
+        height: 500px;
+    }
+}
+
+@media (max-width: 500px){
     iframe {
         height: auto;
     }

@@ -16,6 +16,10 @@
     color: var(--brand-blue--light);
 }
 
+.pm {
+    text-decoration: underline;
+}
+
 .about__intro {
     grid-area: intro;
     font-size: 3em;

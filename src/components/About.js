@@ -15,7 +15,7 @@ export default function About() {
                    I am very curious and I love to learn and read. <br />
                    I am creative and innovative. </p>
 
-                   <p>Good to know: I am an awesome <span className="highlight">vegan cook</span> and run a lifestyle blog <span className="highlight"><a href="https://petiteandminimal.com" target="_blank" rel="noopener noreferrer">Petite &amp; Minimal</a></span>.<span role="img" aria-label="smiley face">&#9786;</span></p>
+                   <p>Good to know: I am an awesome <span className="highlight">vegan cook</span> and run a lifestyle blog <span className="highlight pm"><a href="https://petiteandminimal.com" target="_blank" rel="noopener noreferrer">Petite &amp; Minimal</a></span>.<span role="img" aria-label="smiley face">&#9786;</span></p>
                 
                    <p>Principles I believe in:</p>
                 </div>
@@ -73,8 +73,8 @@ export default function About() {
                         <p>Postman</p>
                     </div>
                     <div className="skills__item">
-                        <img className="skills__item__img" src="imgs/webpack.svg" alt="webpack logo" />
-                        <p>Webpack</p>
+                        <img className="skills__item__img" src="imgs/typescript.svg" alt="typescript logo" />
+                        <p>Typescript</p>
                     </div>
                     <div className="skills__item">
                         <img className="skills__item__img" src="imgs/nodejs.svg" alt="nodejs logo" />

@@ -1,192 +1,194 @@
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "intro intro intro . . . "
-    "did did tech tech button button";
-    gap: 2em;
-    padding: 8em 15em;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    'intro intro intro . . . '
+    'did did tech tech button button';
+  gap: 2em;
+  padding: 8em 15em;
 }
 
 .project-intro {
-    grid-area: intro;
-    padding: 2em 0;
+  grid-area: intro;
+  padding: 2em 0;
 }
 
 .project-title {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    font-size: 5em;
-    text-transform: uppercase;
-    margin-bottom: 1.5rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 
 .project-subtitle {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    font-size: 1.7em;
-    text-transform: uppercase;
-    margin-bottom: 1em;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
 .project-text {
-    font-size: 1.4em;
-    line-height: 1.4;
-    color: hsla(0, 0%, 30%, 1);
+  font-size: 1.4em;
+  line-height: 1.4;
+  color: hsla(0, 0%, 30%, 1);
 }
 
 .did {
-    grid-area: did;
-    padding: 1em;
-    border-right: 1px solid var(--light-gray);
+  grid-area: did;
+  padding: 1em;
+  border-right: 1px solid var(--light-gray);
 }
 
 .did-list-item {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 .did-list-item::before {
-    position: absolute;
-    margin-left: -1.5rem;
-    margin-top: 0.3rem;
-    content: '';
-    width: 0.5em;
-    height: 0.5em;
-    background-color: var(--brand-blue);
-    text-align: center;
-    border-radius: 50%;
+  position: absolute;
+  margin-left: -1.5rem;
+  margin-top: 0.3rem;
+  content: '';
+  width: 0.5em;
+  height: 0.5em;
+  background-color: var(--brand-blue);
+  text-align: center;
+  border-radius: 50%;
 }
 
 .tech {
-    grid-area: tech;
-    padding: 1em;
-    border-right: 1px solid var(--light-gray);
+  grid-area: tech;
+  padding: 1em;
+  border-right: 1px solid var(--light-gray);
 }
 
 .demo-code {
-    grid-area: button;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  grid-area: button;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .demo-code--button {
-    color: var(--brand-blue);
-    font-size: 1.5em;
-    text-align: center;
-    padding: 1em;
-    margin-bottom: 1em;
-    border: 3px solid var(--brand-blue);
+  color: var(--brand-blue);
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 3px solid var(--brand-blue);
 }
 
 .demo-code--button:hover {
-    color: white;
-    background-color: var(--brand-blue);
+  color: white;
+  background-color: var(--brand-blue);
 }
 
 .context-subtitle {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    margin-bottom: 1em;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.ba-tag {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  transform: rotate(-30deg);
 }
 
 .before {
-    position: relative;
-    top: -100%;
-    font-size: 1.2em;
-    text-align: center;
-    width: 25%;
-    padding: 1em 2em;
-    color: white;
-    background-color: hsla(0, 0%, 37%, 0.7);
-    transform: skewX(-30deg) rotate(-30deg) translateY(30%);
+  background-color: hsla(9, 18%, 71%, 0.8);
 }
 
 .after {
-    position: relative;
-    top: -100%;
-    font-size: 1.2em;
-    text-align: center;
-    width: 25%;
-    padding: 1em 2em;
-    color: white;
-    background-color: hsla(224, 100%, 50%, 0.7);
-    transform: skewX(-30deg) rotate(-30deg) translateY(30%);
+  background-color: hsla(98, 8%, 45%, 0.8);
 }
 
 .back-to-projects {
-    display: block;
-    width: 20%;
-    margin: 0 auto;
+  display: block;
+  width: 20%;
+  margin: 0 auto;
 }
 
-@media (max-width: 1025px) and (min-width: 601px){
-    .project-grid {
-        padding: 2em 6em;
-    }
+@media (max-width: 1025px) and (min-width: 601px) {
+  .project-grid {
+    padding: 2em 6em;
+  }
 
-    .project-title {
-        font-size: 3em;
-    }
-    
-    .did-list-item{
-        font-size: 1em;
-    }
+  .project-title {
+    font-size: 3em;
+  }
 
-    .before, .after {
-        font-size: 1em;
-        padding: 1em;
-    }
+  .did-list-item {
+    font-size: 1em;
+  }
 
-    .back-to-projects {
-        width: 35%;  
-    }
+  .before,
+  .after {
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  .back-to-projects {
+    width: 35%;
+  }
 }
 
 @media (max-width: 600px) {
-    
-    .project-grid {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 
-        "intro"
-        "did"
-        "tech" 
-        "button";
-        padding: 1em 2em;
-    }
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      'intro'
+      'did'
+      'tech'
+      'button';
+    padding: 1em 2em;
+  }
 
-    .project-text {
-        font-size: 1em;
-    }
+  .project-text {
+    font-size: 1em;
+  }
 
-    .project-title {
-        font-size: 2em;
-    }
+  .project-title {
+    font-size: 2em;
+  }
 
-    .project-subtitle {
-        font-size: 1.2em;
-    }
+  .project-subtitle {
+    font-size: 1.2em;
+  }
 
-    .did, .tech {
-        border: none;
-    }
+  .did,
+  .tech {
+    border: none;
+  }
 
-    .did-list-item{
-        font-size: 1em;
-    }
+  .did-list-item {
+    font-size: 1em;
+  }
 
-    .demo-code--button {
-        font-size: 1em;
-    }
+  .demo-code--button {
+    font-size: 1em;
+  }
 
-    .before, .after{
-        font-size: 0.7em;
-        padding: 0.7em;
-    }
+  .ba-tag {
+    width: 3rem;
+    height: 3rem;
+  }
 
-    .back-to-projects {
-        width: 50%;  
-    }
+  .before,
+  .after {
+    font-size: 0.7em;
+    padding: 0.7em;
+  }
+
+  .back-to-projects {
+    width: 50%;
+  }
 }

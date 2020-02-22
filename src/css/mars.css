@@ -36,7 +36,7 @@
     grid-area: video3;
 }
 
-@media (max-width: 1025px) and (min-width: 801px) {
+@media (max-width: 1600px) and (min-width: 801px) {
     .mars-grid {
         padding: 2em 4em;
     }

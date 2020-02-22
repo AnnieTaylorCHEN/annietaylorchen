@@ -9,7 +9,7 @@ export default function Projects() {
 
             <div className="project">
                     <Link to="/projects/thirtysecondstomars">
-                        <img src="imgs/project-mars-cover.png" alt="project Thirty Seconds to Mars cover" />
+                        <img src="imgs/project-mars-cover.jpg" alt="project Thirty Seconds to Mars cover" />
                     </Link>
                     <div className="project__summary">
                         <p>A MERN website for band - promotion, e-commerce, community.</p>
@@ -22,7 +22,7 @@ export default function Projects() {
 
                 <div className="project">
                     <Link to="/projects/meowlo" >
-                        <img src="imgs/project-meowlo-cover.png" alt="project Meowlo cover" />
+                        <img src="imgs/project-meowlo-cover.jpg" alt="project Meowlo cover" />
                     </Link>
                     <div className="project__summary">
                         <p>An MVC website for a cat start-up.</p>
@@ -35,7 +35,7 @@ export default function Projects() {
 
                 <div className="project">
                     <Link to="/projects/ingersalternativ">
-                        <img src="imgs/project-IA-cover.png" alt="project Ingers Alternativ cover"/>
+                        <img src="imgs/project-IA-cover.jpg" alt="project Ingers Alternativ cover"/>
                     </Link>
                     <div className="project__summary">
                         <p>A static website for a therapist.</p>

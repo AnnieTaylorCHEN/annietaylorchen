@@ -1,61 +1,65 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+const projectsData = [
+  {
+    img: 'imgs/project-mars-cover.jpg',
+    alt: 'project Thirty Seconds to Mars cover',
+    summary: 'A MERN website for band - promotion, e-commerce, community.',
+    tech: 'React, Redux, MongoDB, Node.js, Stripe',
+    url: '/projects/thirtysecondstomars'
+  },
+  {
+    img: 'imgs/project-meowlo-cover.jpg',
+    alt: 'project Meowlo cover',
+    summary: 'An MVC website for a cat start-up.',
+    tech: 'HTML, CSS, Javascript, Node.js, Api',
+    url: '/projects/meowlo'
+  },
+  {
+    img: 'imgs/project-IA-cover.jpg',
+    alt: 'project Ingers Alternativ cover',
+    summary: 'A static website for a therapist.',
+    tech: 'HTML, CSS, Javascript',
+    url: '/projects/ingersalternativ'
+  },
+  {
+    img: 'imgs/coming-soon.png',
+    alt: 'project coming soon',
+    summary: 'Something is cooking...',
+    tech: 'For sure the latest hot tech',
+    url: '/about'
+  }
+]
+
 export default function Projects() {
-    return (
-        <>
-            <h2 className="projects-title">Projects</h2>
-            <div className="projects">
-
-            <div className="project">
-                    <Link to="/projects/thirtysecondstomars">
-                        <img src="imgs/project-mars-cover.jpg" alt="project Thirty Seconds to Mars cover" />
-                    </Link>
-                    <div className="project__summary">
-                        <p>A MERN website for band - promotion, e-commerce, community.</p>
-                        <p>React, Redux, MongoDB, Node.js, Stripe</p>
-                    </div>
-                    <span className="project-overlay">
-                        <Link to="/projects/thirtysecondstomars" ><span>View More</span></Link>
-                    </span>
-                </div>
-
-                <div className="project">
-                    <Link to="/projects/meowlo" >
-                        <img src="imgs/project-meowlo-cover.jpg" alt="project Meowlo cover" />
-                    </Link>
-                    <div className="project__summary">
-                        <p>An MVC website for a cat start-up.</p>
-                        <p>HTML, CSS, Javascript, Node.js, Api</p>
-                    </div>
-                    <span className="project-overlay">
-                        <Link to="/projects/meowlo"><span>View More</span></Link>
-                    </span>
-                </div>
-
-                <div className="project">
-                    <Link to="/projects/ingersalternativ">
-                        <img src="imgs/project-IA-cover.jpg" alt="project Ingers Alternativ cover"/>
-                    </Link>
-                    <div className="project__summary">
-                        <p>A static website for a therapist.</p>
-                        <p>HTML, CSS, Javascript</p>
-                    </div>
-                    <span className="project-overlay">
-                        <Link to="/projects/ingersalternativ"><span>View More</span></Link>
-                    </span>
-                </div>
-
-                <div className="project">
-                    <Link to="/about">
-                        <img src="imgs/coming-soon.png" alt="project Meowlo cover" />
-                    </Link>
-                    <span className="project-overlay">
-                        <Link to="/about" ><span>View More</span></Link>
-                    </span>
-                </div>
-
+    
+  return (
+    <>
+      <h2 className='projects-title'>Projects</h2>
+      <div className='projects'>
+        {projectsData.map(project => (
+            
+          <div className='project' key={project.alt}>
+            <Link to={project.url}>
+              <img
+                src={project.img}
+                alt={project.alt}
+              />
+            </Link>
+            <div className='project__summary'>
+              <p>{project.summary}</p>
+              <p>{project.tech}</p>
             </div>
-        </>
-    )
+            <span className='project-overlay'>
+              <Link to={project.url}>
+                <span>View More</span>
+              </Link>
+            </span>
+          </div>
+        ))}
+
+      </div>
+    </>
+  )
 }

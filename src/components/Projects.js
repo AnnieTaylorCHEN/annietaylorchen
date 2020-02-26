@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom'
 
 const projectsData = [
   {
+    img: 'imgs/pmblog-cover.jpg',
+    alt: 'project Petite and Minimal Blog cover',
+    summary: 'A JAMstack website for a personal blog.',
+    tech: 'React, Gatsby, GraphQL, APIs',
+    url: '/projects/petiteandminimalblog'
+  },
+  {
     img: 'imgs/project-mars-cover.jpg',
     alt: 'project Thirty Seconds to Mars cover',
     summary: 'A MERN website for band - promotion, e-commerce, community.',

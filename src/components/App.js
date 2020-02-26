@@ -1,6 +1,8 @@
+import ReactGA from 'react-ga';
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import '../css/app.css';
+
 
 import Header from './Header';
 import About from './About'
@@ -12,6 +14,11 @@ import ProjectPMBlog from './ProjectPMBlog'
 import Contact from './Contact'
 import Footer from './Footer'
 import Profile from './Profile'
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-35205911-2', { standardImplementation: true });
+}
+initializeReactGA()
 
 export default function () {
     

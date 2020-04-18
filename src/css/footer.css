@@ -1,5 +1,5 @@
 .footer {
-    padding: 5em;
+    padding: 5rem;
 }
 
 .footer__email {
@@ -24,8 +24,8 @@
     border-top: 1px solid var(--light-gray);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3em;
-    padding: 1.5em;
+    gap: 3rem;
+    padding: 1.5rem;
 }
 
 .site-links {

@@ -224,21 +224,21 @@ export default function About() {
         <h3>Programming</h3>
         <div className='skills__option'>
           {logoG1.map(logo => (
-            <ItemRender logo={logo} />
+            <ItemRender key={logo.name} logo={logo} />
           ))}
         </div>
 
         <h3>UI, UX, Prototype</h3>
         <div className='skills__option'>
         {logoG2.map(logo => (
-            <ItemRender logo={logo} />
+            <ItemRender key={logo.name} logo={logo} />
           ))}
         </div>
 
         <h3>Interested in learning more</h3>
         <div className='skills__option'>
         {logoG3.map(logo => (
-            <ItemRender logo={logo} />
+            <ItemRender key={logo.name} logo={logo} />
           ))}
         </div>
       </section>

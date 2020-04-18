@@ -14,6 +14,7 @@ import ProjectPMBlog from './ProjectPMBlog'
 import Contact from './Contact'
 import Footer from './Footer'
 import Profile from './Profile'
+import Resources from './Resources';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-35205911-2', { standardImplementation: true });
@@ -34,6 +35,7 @@ export default function () {
                 <Route path="/projects/thirtysecondstomars" component={ProjectMars} />
                 <Route path="/projects/petiteandminimalblog" component={ProjectPMBlog} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/resources" component={Resources} />
                 <Footer />
             </div>
         </Router>

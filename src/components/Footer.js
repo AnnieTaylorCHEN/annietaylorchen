@@ -1,6 +1,39 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+const socialLinks = [
+  {
+    img: '/imgs/linkedin.svg',
+    alt: 'annietaylorchen-linkedin',
+    url: 'https://www.linkedin.com/in/annietaylorchen/',
+  },
+  {
+    img: '/imgs/github.svg',
+    alt: 'annietaylorchen-github',
+    url: 'https://github.com/AnnieTaylorCHEN',
+  },
+  {
+    img: '/imgs/goodreads.svg',
+    alt: 'annietaylorchen-goodreads',
+    url: 'https://www.goodreads.com/annietaylorchen',
+  },
+  {
+    img: '/imgs/facebook.svg',
+    alt: 'annietaylorchen-facebook',
+    url: 'https://www.facebook.com/PetiteandMinimal/',
+  },
+  {
+    img: '/imgs/twitter.svg',
+    alt: 'annietaylorchen-twitter',
+    url: 'https://twitter.com/petiteminimal',
+  },
+  {
+    img: '/imgs/instagram.svg',
+    alt: 'annietaylorchen-instagram',
+    url: 'https://www.instagram.com/petiteandminimal/',
+  },
+]
+
 export default function Footer() {
   return (
     <div className='footer'>
@@ -17,13 +50,14 @@ export default function Footer() {
           <Link to='/about'>About</Link>
           <Link to='/projects'>Projects</Link>
           <a
-            href='imgs/Annie-Taylor-CHEN-resume.pdf'
+            href='/imgs/Annie-Taylor-CHEN-resume.pdf'
             target='_blank'
             rel='noopener noreferrer'
           >
             Resume
           </a>
           <Link to='/contact'>Contact</Link>
+          <Link to='/resources'>Resources</Link>
           <a
             href='https://petiteandminimal.com'
             target='_blank'
@@ -34,54 +68,17 @@ export default function Footer() {
         </div>
 
         <div className='social-links'>
-          <a
-            href='https://www.linkedin.com/in/annietaylorchen/'
-            className='header__menu__item'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src='/imgs/linkedin.svg' alt='annietaylorchen-linkedin' />
-          </a>
-          <a
-            href='https://github.com/AnnieTaylorCHEN'
-            className='header__menu__item'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src='/imgs/github.svg' alt='annietaylorchen-github' />
-          </a>
-          <a
-            href='https://www.goodreads.com/annietaylorchen'
-            className='header__menu__item'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src='/imgs/goodreads.svg' alt='annietaylorchen-goodreads' />
-          </a>
-          <a
-            href='https://www.facebook.com/PetiteandMinimal/'
-            className='header__menu__item'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src='/imgs/facebook.svg' alt='annietaylorchen-facebook' />
-          </a>
-          <a
-            href='https://twitter.com/petiteminimal'
-            className='header__menu__item'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src='/imgs/twitter.svg' alt='annietaylorchen-twitter' />
-          </a>
-          <a
-            href='https://www.instagram.com/petiteandminimal/'
-            className='header__menu__item'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src='/imgs/instagram.svg' alt='annietaylorchen-instagram' />
-          </a>
+          {socialLinks.map((social) => (
+            <a
+              key={social.alt}
+              href={social.url}
+              className='header__menu__item'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src={social.img} alt={social.alt} />
+            </a>
+          ))}
         </div>
       </section>
 

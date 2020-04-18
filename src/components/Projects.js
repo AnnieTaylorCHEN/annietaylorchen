@@ -56,7 +56,7 @@ export default function Projects() {
             </Link>
             <div className='project__summary'>
               <p>{project.summary}</p>
-              <p>{project.tech}</p>
+              <p className="project__tech">{project.tech}</p>
             </div>
             <span className='project-overlay'>
               <Link to={project.url}>

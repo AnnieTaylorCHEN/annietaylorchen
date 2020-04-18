@@ -17,8 +17,8 @@
 .projects {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2em;
-    padding: 8em 10em;
+    gap: 2em;
+    padding: 8rem 10rem;
 }
 
 .project {
@@ -77,7 +77,12 @@
     background-color: var(--light-gray);
 }
 
-@media (max-width:1025px) and (min-width: 601px) {
+.project__tech {
+    color: var(--brand-blue--light);
+    font-weight: 500;
+}
+
+@media (max-width:1200px){
     .projects-title {
         font-size: 2em;
         padding: 2rem;
@@ -85,11 +90,17 @@
 
     .projects {
         grid-template-columns: repeat(3, 1fr);
-        padding: 2em 5em;
+        padding: 2rem 5rem;
     }
 
     .project-overlay{
         display: none;
+    }
+}
+
+@media (max-width:850px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -106,8 +117,8 @@
 
     .projects {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 0.5rem;
-        padding: 1em;
+        gap: 0.5rem;
+        padding: 1rem;
     }
 
     .project-overlay{

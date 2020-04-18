@@ -9,7 +9,7 @@
     "principle1 principle2 principle3 principle4";
     grid-column-gap: 2em;
     row-gap: 3em;
-    padding: 8em 10em;
+    padding: 8rem 10rem;
 }
 
 .highlight {

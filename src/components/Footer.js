@@ -64,7 +64,7 @@ export default function Footer() {
           <Link to='/contact'>Contact</Link>
           <Link to='/resources'>Resources</Link>
           <a
-            href='https://petiteandminimal.com'
+            href='https://www.petiteandminimal.com/'
             target='_blank'
             rel='noopener noreferrer'
           >

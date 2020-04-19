@@ -181,7 +181,7 @@ export default function About() {
             blog{' '}
             <span className='highlight pm'>
               <a
-                href='https://petiteandminimal.com'
+                href='https://www.petiteandminimal.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >

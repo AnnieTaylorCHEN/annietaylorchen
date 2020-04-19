@@ -6,12 +6,16 @@ import FreeAssets from './resources/FreeAssets'
 import Typography from './resources/Typography'
 import Colors from './resources/Colors'
 import ProcessingTools from './resources/ProcessingTools'
+import DevTools from './resources/DevTools'
+import Hosting from './resources/Hosting'
+import Javascript from './resources/Javascript'
+import ComputerScience from './resources/ComputerScience'
 
 const Tab = ({ children }) => {
-  const { onClick } = useTabState()
+  const { onClick, isActive } = useTabState()
 
   return (
-    <button className='resource-btn' onClick={onClick}>
+    <button className={isActive ? 'resource-btn is-active' : 'resource-btn' } onClick={onClick}>
       {children}
     </button>
   )
@@ -33,6 +37,10 @@ const Resources = () => (
         <Tab>Typography</Tab>
         <Tab>Colors</Tab>
         <Tab>Processing Tools</Tab>
+        <Tab>Dev Tools</Tab>
+        <Tab>Hosting</Tab>
+        <Tab>Javascript</Tab>
+        <Tab>Computer Science</Tab>
       </div>
 
       <Panel>
@@ -52,6 +60,18 @@ const Resources = () => (
       </Panel>
       <Panel>
         <ProcessingTools />
+      </Panel>
+      <Panel>
+        <DevTools />
+      </Panel>
+      <Panel>
+        <Hosting />
+      </Panel>
+      <Panel>
+        <Javascript />
+      </Panel>
+      <Panel>
+        <ComputerScience />
       </Panel>
     </Tabs>
   </div>

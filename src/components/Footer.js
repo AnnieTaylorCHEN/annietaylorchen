@@ -13,6 +13,11 @@ const socialLinks = [
     url: 'https://github.com/AnnieTaylorCHEN',
   },
   {
+    img: '/imgs/codepen.svg',
+    alt: 'annietaylorchen-codepen',
+    url: 'https://codepen.io/annietaylorchen',
+  },
+  {
     img: '/imgs/goodreads.svg',
     alt: 'annietaylorchen-goodreads',
     url: 'https://www.goodreads.com/annietaylorchen',

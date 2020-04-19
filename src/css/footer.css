@@ -76,7 +76,7 @@
 
 @media (max-width: 1025px) {
     .footer {
-        padding: 2.5em;
+        padding: 2rem 1rem;
     }
 
     .footer__email {
@@ -87,12 +87,12 @@
 
     .footer__links{
         display: inline-block;
-        padding: 2em 0 0 0;
+        padding: 1.5rem 0 0 0;
     }
 
     .social-links img {
         width: 25px;
         height: 25px;
-        margin: 0.3em;
+        margin: 0.3rem;
     }
 }

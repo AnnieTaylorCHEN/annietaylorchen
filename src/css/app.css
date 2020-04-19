@@ -46,3 +46,7 @@ img {
 li {
     list-style: none;
 }
+
+button:focus {
+    outline: none !important;
+}

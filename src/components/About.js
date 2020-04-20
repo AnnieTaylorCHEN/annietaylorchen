@@ -2,102 +2,102 @@ import React from 'react'
 
 const logoG1 = [
   {
-    img: 'imgs/html5.svg',
+    img: '/imgs/about/html5.svg',
     alt: 'html5 logo',
     name: 'Html 5'
   },
   {
-    img: 'imgs/css3.svg',
+    img: '/imgs/about/css3.svg',
     alt: 'css3 logo',
     name: 'Css 3'
   },
   {
-    img: 'imgs/javascript.svg',
+    img: '/imgs/about/javascript.svg',
     alt: 'javacript logo',
     name: 'Javascript'
   },
   {
-    img: 'imgs/react.svg',
+    img: '/imgs/about/react.svg',
     alt: 'react logo',
     name: 'React'
   },
   {
-    img: 'imgs/redux.svg',
+    img: '/imgs/about/redux.svg',
     alt: 'recux logo',
     name: 'Redux'
   },
   {
-    img: 'imgs/gatsby.svg',
+    img: '/imgs/about/gatsby.svg',
     alt: 'gatsby logo',
     name: 'Gatsby'
   },
   {
-    img: 'imgs/jest.svg',
+    img: '/imgs/about/jest.svg',
     alt: 'jest logo',
     name: 'Jest'
   },
   {
-    img: 'imgs/postman.svg',
+    img: '/imgs/about/postman.svg',
     alt: 'postman logo',
     name: 'Postman'
   },
   {
-    img: 'imgs/typescript.svg',
+    img: '/imgs/about/typescript.svg',
     alt: 'typescript logo',
     name: 'Typescript'
   },
   {
-    img: 'imgs/nodejs.svg',
+    img: '/imgs/about/nodejs.svg',
     alt: 'nodejs logo',
     name: 'Node.js'
   },
   {
-    img: 'imgs/mongodb.svg',
+    img: '/imgs/about/mongodb.svg',
     alt: 'mongodb logo',
     name: 'MongoDB'
   },
   {
-    img: 'imgs/postgresql.svg',
+    img: '/imgs/about/postgresql.svg',
     alt: 'postgresql logo',
     name: 'PostgreSQL'
   },
   {
-    img: 'imgs/firebase.svg',
+    img: '/imgs/about/firebase.svg',
     alt: 'firebase logo',
     name: 'Firebase'
   },
   {
-    img: 'imgs/graphql.svg',
+    img: '/imgs/about/graphql.svg',
     alt: 'graphql logo',
     name: 'GraphQL'
   },
   {
-    img: 'imgs/prisma.svg',
+    img: '/imgs/about/prisma.svg',
     alt: 'prisma logo',
     name: 'Prisma'
   },
   {
-    img: 'imgs/apollo.svg',
+    img: '/imgs/about/apollo.svg',
     alt: 'apollo logo',
     name: 'Apollo'
   },
   {
-    img: 'imgs/git.svg',
+    img: '/imgs/about/git.svg',
     alt: 'git logo',
     name: 'Git'
   },
   {
-    img: 'imgs/heroku.svg',
+    img: '/imgs/about/heroku.svg',
     alt: 'heroku logo',
     name: 'Heroku'
   },
   {
-    img: 'imgs/netlify.svg',
+    img: '/imgs/about/netlify.svg',
     alt: 'netlify logo',
     name: 'Netlify'
   },
   {
-    img: 'imgs/linux-mint.svg',
+    img: '/imgs/about/linux-mint.svg',
     alt: 'linux-mint logo',
     name: 'Linux-Mint'
   }
@@ -105,27 +105,27 @@ const logoG1 = [
 
 const logoG2 = [
   {
-    img: 'imgs/gimp.svg',
+    img: '/imgs/about/gimp.svg',
     alt: 'gimp logo',
     name: 'Gimp - open-source alternative to Photoshop'
   },
   {
-    img: 'imgs/inkscape.svg',
+    img: '/imgs/about/inkscape.svg',
     alt: 'inkscape logo',
     name: 'Inkscape - open-source alternative to Illustrator'
   },
   {
-    img: 'imgs/figma.svg',
+    img: '/imgs/about/figma.svg',
     alt: 'figma logo',
     name: 'Figma'
   },
   {
-    img: 'imgs/canva.svg',
+    img: '/imgs/about/canva.svg',
     alt: 'canva logo',
     name: 'Canva'
   },
   {
-    img: 'imgs/pixlr.svg',
+    img: '/imgs/about/pixlr.svg',
     alt: 'pixlr logo',
     name: 'Pixlr'
   }
@@ -133,17 +133,17 @@ const logoG2 = [
 
 const logoG3 = [
   {
-    img: 'imgs/python.svg',
+    img: '/imgs/about/python.svg',
     alt: 'python logo',
     name: 'Python'
   },
   {
-    img: 'imgs/flutter.svg',
+    img: '/imgs/about/flutter.svg',
     alt: 'flutter logo',
     name: 'Flutter'
   },
   {
-    img: 'imgs/AI.png',
+    img: '/imgs/about/AI.png',
     alt: 'AI logo',
     name: 'AI'
   }

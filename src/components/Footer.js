@@ -3,37 +3,37 @@ import { Link } from 'react-router-dom'
 
 const socialLinks = [
   {
-    img: '/imgs/linkedin.svg',
+    img: '/imgs/social/linkedin.svg',
     alt: 'annietaylorchen-linkedin',
     url: 'https://www.linkedin.com/in/annietaylorchen/',
   },
   {
-    img: '/imgs/github.svg',
+    img: '/imgs/social/github.svg',
     alt: 'annietaylorchen-github',
     url: 'https://github.com/AnnieTaylorCHEN',
   },
   {
-    img: '/imgs/codepen.svg',
+    img: '/imgs/social/codepen.svg',
     alt: 'annietaylorchen-codepen',
     url: 'https://codepen.io/annietaylorchen',
   },
   {
-    img: '/imgs/goodreads.svg',
+    img: '/imgs/social/goodreads.svg',
     alt: 'annietaylorchen-goodreads',
     url: 'https://www.goodreads.com/annietaylorchen',
   },
   {
-    img: '/imgs/facebook.svg',
+    img: '/imgs/social/facebook.svg',
     alt: 'annietaylorchen-facebook',
     url: 'https://www.facebook.com/PetiteandMinimal/',
   },
   {
-    img: '/imgs/twitter.svg',
+    img: '/imgs/social/twitter.svg',
     alt: 'annietaylorchen-twitter',
     url: 'https://twitter.com/petiteminimal',
   },
   {
-    img: '/imgs/instagram.svg',
+    img: '/imgs/social/instagram.svg',
     alt: 'annietaylorchen-instagram',
     url: 'https://www.instagram.com/petiteandminimal/',
   },

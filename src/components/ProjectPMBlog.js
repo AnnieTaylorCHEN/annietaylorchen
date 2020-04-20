@@ -72,13 +72,13 @@ export default function PMBlog() {
         <div className='pmblog-media1'>
           <div className='ba-tag before'>before</div>
           <video width='100%' height='auto' muted loop autoPlay playsInline>
-            <source src='/imgs/petite-minimal-wordpress.mp4' type='video/mp4' />
+            <source src='/imgs/projects/petite-minimal-wordpress.mp4' type='video/mp4' />
             Your browser doesn't support the media tag.
           </video>
         </div>
         <div className='pmblog-media2'>
           <img
-            src='/imgs/wordpress-to-jamstack.jpg'
+            src='/imgs/projects/wordpress-to-jamstack.jpg'
             alt='wordpress to jamstack'
           />
         </div>
@@ -132,7 +132,7 @@ export default function PMBlog() {
             move my domain name to my new site.
           </p>
           <video width='100%' height='auto' muted loop autoPlay playsInline>
-            <source src='/imgs/pmblog-hover.mp4' type='video/mp4' />
+            <source src='/imgs/projects/pmblog-hover.mp4' type='video/mp4' />
             Your browser doesn't support the video tag.
           </video>
           
@@ -140,7 +140,7 @@ export default function PMBlog() {
         <div className='pmblog-media3'>
           <div className='ba-tag after'>after</div>
           <video width='100%' height='auto' muted loop autoPlay playsInline>
-            <source src='/imgs/pmblog.mp4' type='video/mp4' />
+            <source src='/imgs/projects/pmblog.mp4' type='video/mp4' />
             Your browser doesn't support the video tag.
           </video>
           <p className='project-text'>
@@ -157,7 +157,7 @@ export default function PMBlog() {
         <div className='pmblog-media4'>
           <div className='ba-tag before'>before</div>
           <img
-            src='/imgs/pmblog-before.jpg'
+            src='/imgs/projects/pmblog-before.jpg'
             alt='wordpress to jamstack'
           />
         </div>
@@ -165,7 +165,7 @@ export default function PMBlog() {
         <div className='pmblog-media5'>
           <div className='ba-tag after'>after</div>
           <img
-            src='/imgs/pmblog-after.jpg'
+            src='/imgs/projects/pmblog-after.jpg'
             alt='wordpress to jamstack'
           />
         </div>

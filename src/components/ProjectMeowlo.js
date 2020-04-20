@@ -42,13 +42,13 @@ export default function ProjectMeowlo() {
                 </div>
                 <div className="meowlo-video">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/meowlo-video.mp4" type="video/mp4" />
+                        <source src="/imgs/projects/meowlo-video.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>
                 <div className="meowlo-video2">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/meowlo-video2.mp4" type="video/mp4" />
+                        <source src="/imgs/projects/meowlo-video2.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>

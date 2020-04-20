@@ -5,16 +5,16 @@
     grid-template-areas: 
     "story story video video video"
     "video2 video2 video2 story2 story2";
-    grid-column-gap: 1em;
-    grid-row-gap: 5em;
-    padding: 2em 12em;
+    grid-column-gap: 1rem;
+    grid-row-gap: 5rem;
+    padding: 2rem 12rem;
     max-width: 2000px;
     margin: 0 auto;
 }
 
 .meowlo-story {
     grid-area: story;
-    margin-right: 4em;
+    margin-right: 4rem;
 }
 
 .meowlo-video {
@@ -23,7 +23,7 @@
 
 .meowlo-story2 {
     grid-area: story2;
-    margin-left: 4em;
+    margin-left: 4rem;
 }
 
 .meowlo-video2 {
@@ -32,11 +32,11 @@
 
 @media (max-width: 1025px) and (min-width: 801px) {
     .meowlo-grid {
-        padding: 2em 4em;
+        padding: 2rem 4rem;
     }
 
     .project-text {
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -48,10 +48,10 @@
         "video"
         "story2"
         "video2";
-        padding: 1em 2em;
+        padding: 1rem 2rem;
     }
 
     .meowlo-story, .meowlo-story2 {
-        margin: 0em;
+        margin: 0rem;
     }
 }

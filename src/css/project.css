@@ -5,43 +5,43 @@
   grid-template-areas:
     'intro intro intro . . . '
     'did did tech tech button button';
-  gap: 2em;
-  padding: 8em 15em;
+  gap: 2rem;
+  padding: 8rem 15rem;
 }
 
 .project-intro {
   grid-area: intro;
-  padding: 2em 0;
+  padding: 2rem 0;
 }
 
 .project-title {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-size: 5em;
+  font-size: 5rem;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
 
 .project-subtitle {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   text-transform: uppercase;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .project-text {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   line-height: 1.4;
   color: hsla(0, 0%, 30%, 1);
 }
 
 .did {
   grid-area: did;
-  padding: 1em;
+  padding: 1rem;
   border-right: 1px solid var(--light-gray);
 }
 
 .did-list-item {
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .did-list-item::before {
@@ -49,8 +49,8 @@
   margin-left: -1.5rem;
   margin-top: 0.3rem;
   content: '';
-  width: 0.5em;
-  height: 0.5em;
+  width: 0.5rem;
+  height: 0.5rem;
   background-color: var(--brand-blue);
   text-align: center;
   border-radius: 50%;
@@ -58,13 +58,13 @@
 
 .tech {
   grid-area: tech;
-  padding: 1em;
+  padding: 1rem;
   border-right: 1px solid var(--light-gray);
 }
 
 .demo-code {
   grid-area: button;
-  padding: 1em;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,10 +73,10 @@
 
 .demo-code--button {
   color: var(--brand-blue);
-  font-size: 1.5em;
+  font-size: 1.2rem;
   text-align: center;
-  padding: 1em;
-  margin-bottom: 1em;
+  padding: 1rem;
+  margin-bottom: 1rem;
   border: 3px solid var(--brand-blue);
 }
 
@@ -87,9 +87,9 @@
 
 .context-subtitle {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .ba-tag {
@@ -114,26 +114,30 @@
 .back-to-projects {
   display: block;
   width: 20%;
-  margin: 0 auto;
+  margin: 4rem auto;
 }
 
-@media (max-width: 1025px) and (min-width: 601px) {
+@media (max-width: 1025px) {
   .project-grid {
-    padding: 2em 6em;
+    padding: 2rem 6rem;
   }
 
   .project-title {
-    font-size: 3em;
+    font-size: 3rem;
   }
 
   .did-list-item {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .before,
   .after {
-    font-size: 1em;
-    padding: 1em;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .demo-code--button {
+    font-size: 1rem;
   }
 
   .back-to-projects {
@@ -149,19 +153,19 @@
       'did'
       'tech'
       'button';
-    padding: 1em 2em;
+    padding: 1rem 2rem;
   }
 
   .project-text {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .project-title {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .project-subtitle {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 
   .did,
@@ -170,11 +174,7 @@
   }
 
   .did-list-item {
-    font-size: 1em;
-  }
-
-  .demo-code--button {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .ba-tag {
@@ -184,8 +184,8 @@
 
   .before,
   .after {
-    font-size: 0.7em;
-    padding: 0.7em;
+    font-size: 0.7rem;
+    padding: 0.7rem;
   }
 
   .back-to-projects {

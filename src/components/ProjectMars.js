@@ -45,13 +45,13 @@ export default function ProjectMars() {
                 </div>
                 <div className="mars-video1">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/mars-story.mp4" type="video/mp4" />
+                        <source src="/imgs/projects/mars-story.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>
                 <div className="mars-video2">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/mars-shop.mp4" type="video/mp4" />
+                        <source src="/imgs/projects/mars-shop.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>
@@ -67,13 +67,13 @@ export default function ProjectMars() {
                     <p className="project-text">There is also a simple message board where fans can create post and comments. The biggest challenge for me is to make sure all the data are sent correctly and render correctly, and I like small cute touch such as an animated heart when people like a post, or to edit post or comment on site. </p>
                     <p className="project-text">Obviously, the Guardians of the Galaxy guys were the first ones to occupy this section once I released the site, since Star-Lord discovered the Up in the Air in the space. Do you want to know more story about it? Read it in the Echelon section.  <span role="img" aria-label="wink face">&#x1f609;</span></p>
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/mars-heart.mp4" type="video/mp4" />
+                        <source src="/imgs/projects/mars-heart.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>
                 <div className="mars-video3">
                     <video width="100%" height="auto" muted loop autoPlay playsInline >
-                        <source src="/imgs/mars-echelon.mp4" type="video/mp4" />
+                        <source src="/imgs/projects/mars-echelon.mp4" type="video/mp4" />
                         Your browser doesn't support the video tag.
                     </video>
                 </div>

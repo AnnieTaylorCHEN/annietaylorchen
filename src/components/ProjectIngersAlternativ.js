@@ -65,7 +65,7 @@ export default function ProjectIngersAlternativ() {
 
         <div className='rebrandimg'>
           <img
-            src='/imgs/ingers-rebrandimg.jpg'
+            src='/imgs/projects/ingers-rebrandimg.jpg'
             alt='blur background of Ingers Alternativ preparation plan'
           />
         </div>
@@ -89,14 +89,14 @@ export default function ProjectIngersAlternativ() {
           <div className='ba-tag before'>before</div>
           <div>
             <video width='50%' height='100%' muted loop autoPlay playsInline>
-              <source src='/imgs/inger-before.mp4' type='video/mp4' />
+              <source src='/imgs/projects/inger-before.mp4' type='video/mp4' />
               Your browser doesn't support the video tag.
             </video>
           </div>
           <div>
             <div className='ba-tag after'>after</div>
             <video width='50%' height='100%' muted loop autoPlay playsInline>
-              <source src='/imgs/inger-after.mp4' type='video/mp4' />
+              <source src='/imgs/projects/inger-after.mp4' type='video/mp4' />
               Your browser doesn't support the video tag.
             </video>
           </div>
@@ -151,14 +151,14 @@ export default function ProjectIngersAlternativ() {
             <div className='ba-tag before'>before</div>
             <img
                 className='inger-old-card'
-              src='/imgs/inger-old-card.jpg'
+              src='/imgs/projects/inger-old-card.jpg'
               alt="Inger's old business card"
             />
           </div>
           <div>
             <div className='ba-tag after'>after</div>
             <img
-              src='/imgs/inger-new-card.jpg'
+              src='/imgs/projects/inger-new-card.jpg'
               alt="Inger's new business card"
             />
           </div>

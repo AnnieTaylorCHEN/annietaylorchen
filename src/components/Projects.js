@@ -3,35 +3,35 @@ import { Link } from 'react-router-dom'
 
 const projectsData = [
   {
-    img: 'imgs/pmblog-cover.jpg',
+    img: '/imgs/projects/pmblog-cover.jpg',
     alt: 'project Petite and Minimal Blog cover',
     summary: 'A JAMstack website for a personal blog.',
     tech: 'React, Gatsby, GraphQL, APIs',
     url: '/projects/petiteandminimalblog'
   },
   {
-    img: 'imgs/project-mars-cover.jpg',
+    img: '/imgs/projects/project-mars-cover.jpg',
     alt: 'project Thirty Seconds to Mars cover',
     summary: 'A MERN website for band - promotion, e-commerce, community.',
     tech: 'React, Redux, MongoDB, Node.js, Stripe',
     url: '/projects/thirtysecondstomars'
   },
   {
-    img: 'imgs/project-meowlo-cover.jpg',
+    img: '/imgs/projects/project-meowlo-cover.jpg',
     alt: 'project Meowlo cover',
     summary: 'An MVC website for a cat start-up.',
     tech: 'HTML, CSS, Javascript, Node.js, Api',
     url: '/projects/meowlo'
   },
   {
-    img: 'imgs/project-IA-cover.jpg',
+    img: '/imgs/projects/project-IA-cover.jpg',
     alt: 'project Ingers Alternativ cover',
     summary: 'A static website for a therapist.',
     tech: 'HTML, CSS, Javascript',
     url: '/projects/ingersalternativ'
   },
   {
-    img: 'imgs/coming-soon.png',
+    img: '/imgs/projects/coming-soon.png',
     alt: 'project coming soon',
     summary: 'Something is cooking...',
     tech: 'For sure the latest hot tech',

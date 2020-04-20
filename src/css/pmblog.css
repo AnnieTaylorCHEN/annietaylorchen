@@ -6,9 +6,9 @@
     "media2 story2"
     "story3 media3"
     "media4 media5";
-    grid-column-gap: 4em;
-    grid-row-gap: 5em;
-    padding: 2em 12em;
+    grid-column-gap: 4rem;
+    grid-row-gap: 5rem;
+    padding: 2rem 12rem;
     max-width: 2000px;
     margin: 0 auto;
 }
@@ -51,11 +51,11 @@
 
 @media (max-width: 1400px) and (min-width: 801px) {
     .pmblog-grid {
-        padding: 2em 4em;
+        padding: 2rem 4rem;
     }
 
     .project-text {
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -71,12 +71,12 @@
         "media3"
         "media4"
         "media5";
-        grid-row-gap: 2em;
-        padding: 1em 2em;
+        grid-row-gap: 2rem;
+        padding: 1rem 2rem;
     }
 
     .pmblog-story1, .pmblog-story2, .pmblog-story2 {
-        margin: 0em;
+        margin: 0rem;
     }
 
     .pmblog-media3 video, .pmblog-story3 video {

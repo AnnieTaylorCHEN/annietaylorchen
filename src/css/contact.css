@@ -1,24 +1,24 @@
 .contact-header {
     width: 100%;
     height: 35vh;
-    max-height: 25em;
-    padding-top: 7em;
-    padding-left: 7em;
-    padding-right: 7em;
+    max-height: 25rem;
+    padding-top: 7rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .contact-header__title {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .contact-header a {
     font-size: 2.4rem;
     text-decoration: none;
     color: var(--brand-blue--light);
-    padding-top: 0.7em;
+    padding-top: 0.7rem;
     border-top: 1px solid var(--light-gray);
 }
 
@@ -33,7 +33,7 @@
     height: 650px;
     margin: 0 auto;
     position: relative;
-    top: -2em;
+    top: -2rem;
 }
 
 .contact-form {
@@ -47,8 +47,8 @@
 
 .contact-form label {
     color: var(--brand-blue);
-    font-size: 1.5em;
-    margin-bottom: 1em;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .contact-form input {
@@ -59,7 +59,7 @@
     border: none;
     outline: none;
     border-bottom: 2px solid var(--brand-blue);
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .contact-form textarea {
@@ -68,7 +68,7 @@
     border: none;
     outline: none;
     border-bottom: 2px solid var(--brand-blue);
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     resize: none;
 }
 
@@ -78,11 +78,11 @@
     justify-content: center;
     color: var(--brand-blue);
     background-color: transparent;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight:700;
     width: 200px;
     height: 200px;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
     border: 2px solid var(--brand-blue);
     border-radius: 50%;
     cursor: pointer;
@@ -98,15 +98,15 @@
 
 @media (min-width: 601px ) and (max-width: 800px){
     .contact-header {
-        padding-top: 4em;
-        padding-left: 4em;
+        padding-top: 4rem;
+        padding-left: 4rem;
     }
 }
 
 @media (max-width: 600px) {
     .contact-header {
-        padding: 2em;
-        max-height: 12em;
+        padding: 2rem;
+        max-height: 12rem;
     }
 
     .contact-header__title{
@@ -126,7 +126,7 @@
     }
 
     .send {
-        font-size: 1em;
+        font-size: 1rem;
         width: 100px;
         height: 100px;
     }

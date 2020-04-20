@@ -1,5 +1,5 @@
 .projects-title {
-    font-size: 4em;
+    font-size: 4rem;
     text-align: center;
     text-transform: uppercase;
     padding: 2rem;
@@ -17,7 +17,7 @@
 .projects {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2em;
+    gap: 2rem;
     padding: 8rem 10rem;
 }
 
@@ -50,7 +50,7 @@
     text-decoration: none;
     text-align: center;
     width: 50%;
-    padding: 1em;
+    padding: 1rem;
     border: 3px solid white;
     position: absolute;
     top: 50%;
@@ -72,7 +72,7 @@
 }
 
 .project__summary {
-    padding: 2em;
+    padding: 2rem;
     text-align: center;
     background-color: var(--light-gray);
 }
@@ -84,7 +84,7 @@
 
 @media (max-width:1200px){
     .projects-title {
-        font-size: 2em;
+        font-size: 2rem;
         padding: 2rem;
     }
 
@@ -107,7 +107,7 @@
 @media (max-width: 600px) {
 
     .projects-title {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         padding: 1rem;
     }
 

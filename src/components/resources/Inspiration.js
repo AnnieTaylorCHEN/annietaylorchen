@@ -27,6 +27,18 @@ const inspirationData = [
     url: 'https://www.siteinspire.com/',
   },
   {
+    img: '/imgs/resources/mindsparkle-mag.jpg',
+    name: 'Mindsparkle Mag',
+    description: 'Mindsparkle Mag is a high quality designblog highlighting the best of beautiful Design, Website and Video projects including photography, art, branding & co.',
+    url: 'https://mindsparklemag.com/',
+  },
+  {
+    img: '/imgs/resources/wow-web.jpg',
+    name: 'Wow Web',
+    description: 'Managed by two graphic designers, wow-web is based on showcasing great works in web design for your delight & inspiration. DESIGN, USABILITY, WEBFONT ...',
+    url: 'https://wow-web.co.uk/',
+  },
+  {
     img: '/imgs/resources/sidebar.jpg',
     name: 'Sidebar',
     description: 'The five best design links, every day.',

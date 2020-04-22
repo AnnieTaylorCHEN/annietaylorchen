@@ -83,7 +83,7 @@ const freeAssetsData = [
   {
     img: '/imgs/resources/iconmonstr.jpg',
     name: 'Icon Monsters',
-    description: 'iconmonstr - free, monstrously big and continuously growing source of simple icons run by one creator.',
+    description: 'iconmonstr - free, monstrously big and continuously growing source of simple icons run by Alexander Kahlkopf.',
     url: 'https://iconmonstr.com/',
   },
   {

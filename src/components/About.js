@@ -23,13 +23,18 @@ const logoG1 = [
   },
   {
     img: '/imgs/about/redux.svg',
-    alt: 'recux logo',
+    alt: 'redux logo',
     name: 'Redux'
   },
   {
     img: '/imgs/about/gatsby.svg',
     alt: 'gatsby logo',
     name: 'Gatsby'
+  },
+  {
+    img: '/imgs/about/next-js.svg',
+    alt: 'Next JS logo',
+    name: 'Next.js'
   },
   {
     img: '/imgs/about/jest.svg',
@@ -75,11 +80,6 @@ const logoG1 = [
     img: '/imgs/about/prisma.svg',
     alt: 'prisma logo',
     name: 'Prisma'
-  },
-  {
-    img: '/imgs/about/apollo.svg',
-    alt: 'apollo logo',
-    name: 'Apollo'
   },
   {
     img: '/imgs/about/git.svg',

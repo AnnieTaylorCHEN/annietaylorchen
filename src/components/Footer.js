@@ -53,7 +53,6 @@ export default function Footer() {
       <section className='footer__links'>
         <div className='site-links'>
           <Link to='/about'>About</Link>
-          <Link to='/projects'>Projects</Link>
           <a
             href='/imgs/Annie-Taylor-CHEN-resume.pdf'
             target='_blank'
@@ -62,6 +61,7 @@ export default function Footer() {
             Resume
           </a>
           <Link to='/contact'>Contact</Link>
+          <Link to='/projects'>Projects</Link>
           <Link to='/resources'>Resources</Link>
           <a
             href='https://www.petiteandminimal.com/'

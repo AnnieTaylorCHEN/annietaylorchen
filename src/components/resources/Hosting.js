@@ -9,10 +9,10 @@ const hostingData = [
     url: 'https://www.netlify.com/',
   },
   {
-    img: '/imgs/resources/zeit.jpg',
-    name: 'Zeit.co',
-    description: 'ZEIT is the optimal workflow for frontend teams. All-in-one: Static and Jamstack deployment, Serverless Functions, and Global CDN.',
-    url: 'https://zeit.co/',
+    img: '/imgs/resources/vercel.jpg',
+    name: 'Vercel',
+    description: 'Vercel is the easiest way to deploy websites. Host your web projects with zero configuration, automatic SSL, and global CDN.',
+    url: 'https://vercel.com/',
   },
   {
     img: '/imgs/resources/heroku.jpg',

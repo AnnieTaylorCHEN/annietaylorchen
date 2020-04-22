@@ -39,15 +39,8 @@ const projectsData = [
   }
 ]
 
-export default function Projects() {
-    
-  return (
-    <>
-      <h2 className='projects-title'>Projects</h2>
-      <div className='projects'>
-        {projectsData.map(project => (
-            
-          <div className='project' key={project.alt}>
+const Project = ({ project }) => (
+  <div className='project'>
             <Link to={project.url}>
               <img
                 src={project.img}
@@ -64,8 +57,17 @@ export default function Projects() {
               </Link>
             </span>
           </div>
-        ))}
+)
 
+export default function Projects() {
+    
+  return (
+    <>
+      <h2 className='projects-title'>Projects</h2>
+      <div className='projects'>
+        {projectsData.map(project => (
+            <Project key={project.alt} project={project} />
+        ))}
       </div>
     </>
   )

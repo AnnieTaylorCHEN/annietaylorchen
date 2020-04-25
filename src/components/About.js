@@ -37,6 +37,11 @@ const logoG1 = [
     name: 'Next.js'
   },
   {
+    img: '/imgs/about/d3.svg',
+    alt: 'D3 logo',
+    name: 'D3'
+  },
+  {
     img: '/imgs/about/jest.svg',
     alt: 'jest logo',
     name: 'Jest'
@@ -75,11 +80,6 @@ const logoG1 = [
     img: '/imgs/about/graphql.svg',
     alt: 'graphql logo',
     name: 'GraphQL'
-  },
-  {
-    img: '/imgs/about/prisma.svg',
-    alt: 'prisma logo',
-    name: 'Prisma'
   },
   {
     img: '/imgs/about/git.svg',

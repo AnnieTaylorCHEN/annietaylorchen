@@ -52,24 +52,28 @@ export default function Footer() {
 
       <section className='footer__links'>
         <div className='site-links'>
-          <Link to='/about'>About</Link>
-          <a
-            href='/imgs/Annie-Taylor-CHEN-resume.pdf'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Resume
-          </a>
-          <Link to='/contact'>Contact</Link>
-          <Link to='/projects'>Projects</Link>
-          <Link to='/resources'>Resources</Link>
-          <a
-            href='https://www.petiteandminimal.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Petite &amp; Minimal
-          </a>
+          <div className='site-links__part1'>
+            <Link to='/about'>About</Link>
+            <a
+              href='/imgs/Annie-Taylor-CHEN-resume.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Resume
+            </a>
+            <Link to='/contact'>Contact</Link>
+          </div>
+          <div className='site-links__part2'>
+            <Link to='/projects'>Projects</Link>
+            <Link to='/resources'>Resources</Link>
+            <a
+              href='https://www.petiteandminimal.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Petite &amp; Minimal
+            </a>
+          </div>
         </div>
 
         <div className='social-links'>
@@ -77,7 +81,6 @@ export default function Footer() {
             <a
               key={social.alt}
               href={social.url}
-              className='header__menu__item'
               target='_blank'
               rel='noopener noreferrer'
             >

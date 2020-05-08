@@ -29,14 +29,13 @@ export default function PMBlog() {
           <h3 className='project-subtitle'>Tech I used</h3>
           <ol>
             <li className='did-list-item'>Gatsby.js</li>
-            <li className='did-list-item'>React</li>
             <li className='did-list-item'>GraphQL</li>
             <li className='did-list-item'>Third Party APIs</li>
           </ol>
         </div>
         <div className='demo-code'>
           <a
-            className='demo-code--button'
+            className='button'
             href='https://www.petiteandminimal.com/'
             target='_blank'
             rel='noopener noreferrer'
@@ -72,7 +71,10 @@ export default function PMBlog() {
         <div className='pmblog-media1'>
           <div className='ba-tag before'>before</div>
           <video width='100%' height='auto' muted loop autoPlay playsInline>
-            <source src='/imgs/projects/petite-minimal-wordpress.mp4' type='video/mp4' />
+            <source
+              src='/imgs/projects/petite-minimal-wordpress.mp4'
+              type='video/mp4'
+            />
             Your browser doesn't support the media tag.
           </video>
         </div>
@@ -135,7 +137,6 @@ export default function PMBlog() {
             <source src='/imgs/projects/pmblog-hover.mp4' type='video/mp4' />
             Your browser doesn't support the video tag.
           </video>
-          
         </div>
         <div className='pmblog-media3'>
           <div className='ba-tag after'>after</div>
@@ -145,13 +146,14 @@ export default function PMBlog() {
           </video>
           <p className='project-text'>
             As you can see, the final result for performance testing is very
-            very good. My performance, accessability, SEO, best practices
-            have all achieved good score. You might notice images show up very soon as blurred versions first, then they become clear quickly as they loaded, instead of as blank. Now I am finally satisfied!{' '}
+            very good. My performance, accessability, SEO, best practices have
+            all achieved good score. You might notice images show up very soon
+            as blurred versions first, then they become clear quickly as they
+            loaded, instead of as blank. Now I am finally satisfied!{' '}
             <span role='img' aria-label='smiley face'>
               &#9786;
             </span>
           </p>
-          
         </div>
 
         <div className='pmblog-media4'>
@@ -172,7 +174,7 @@ export default function PMBlog() {
       </section>
 
       <section>
-        <Link to='/projects' className='demo-code--button back-to-projects'>
+        <Link to='/projects' className='button back-to-projects'>
           Back to Projects
         </Link>
       </section>

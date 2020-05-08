@@ -53,20 +53,16 @@
     .pmblog-grid {
         padding: 2rem 4rem;
     }
-
-    .project-text {
-        font-size: 1rem;
-    }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .pmblog-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
         "story1"
         "media1"
-        "media2"
         "story2"
+        "media2"
         "story3"
         "media3"
         "media4"
@@ -75,7 +71,7 @@
         padding: 1rem 2rem;
     }
 
-    .pmblog-story1, .pmblog-story2, .pmblog-story2 {
+    .pmblog-story1, .pmblog-story2 {
         margin: 0rem;
     }
 

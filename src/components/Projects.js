@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom'
 
 const projectsData = [
   {
-    img: '/imgs/projects/pmblog-cover.jpg',
+    img: '/imgs/projects/project-pm-store-cover.jpg',
+    alt: 'project Petite and Minimal Store cover',
+    summary: 'A JAMstack E-commerce solution.',
+    tech: 'Gatsby, GraphQL, Contentful, Commercelayer',
+    url: '/projects/petiteandminimalstore'
+  },
+  {
+    img: '/imgs/projects/project-pmblog-cover.jpg',
     alt: 'project Petite and Minimal Blog cover',
     summary: 'A JAMstack website for a personal blog.',
-    tech: 'React, Gatsby, GraphQL, APIs',
+    tech: 'Gatsby, GraphQL, APIs',
     url: '/projects/petiteandminimalblog'
   },
   {

@@ -6,7 +6,9 @@
     'intro intro intro . . . '
     'did did tech tech button button';
   gap: 2rem;
+  max-width: 2000px;
   padding: 8rem 15rem;
+  margin: 0 auto;
 }
 
 .project-intro {
@@ -29,8 +31,8 @@
 }
 
 .project-text {
-  font-size: 1.4rem;
-  line-height: 1.4;
+  font-size: 1.3rem;
+  line-height: 1.5;
   color: hsla(0, 0%, 30%, 1);
 }
 
@@ -71,20 +73,6 @@
   justify-content: center;
 }
 
-.demo-code--button {
-  color: var(--brand-blue);
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 3px solid var(--brand-blue);
-}
-
-.demo-code--button:hover {
-  color: white;
-  background-color: var(--brand-blue);
-}
-
 .context-subtitle {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
@@ -115,6 +103,20 @@
   display: block;
   width: 20%;
   margin: 4rem auto;
+  max-width: 250px;
+}
+
+@media (max-width: 1500px) {
+  .project-grid {
+    grid-template-areas:
+      'intro intro intro intro intro . '
+      'did did tech tech button button';
+    padding: 4rem 8rem;
+  }
+
+  .project-title {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 1025px) {
@@ -136,7 +138,7 @@
     padding: 1rem;
   }
 
-  .demo-code--button {
+  .button {
     font-size: 1rem;
   }
 

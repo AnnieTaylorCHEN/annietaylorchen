@@ -36,7 +36,7 @@ export default function ProjectIngersAlternativ() {
         </div>
         <div className='demo-code'>
           <a
-            className='demo-code--button'
+            className='button'
             href='https://ingersalternativ.se/'
             target='_blank'
             rel='noopener noreferrer'
@@ -147,10 +147,10 @@ export default function ProjectIngersAlternativ() {
         </div>
 
         <div className='inger-card'>
-          <div className="inger-old-card-container">
+          <div className='inger-old-card-container'>
             <div className='ba-tag before'>before</div>
             <img
-                className='inger-old-card'
+              className='inger-old-card'
               src='/imgs/projects/inger-old-card.jpg'
               alt="Inger's old business card"
             />
@@ -165,7 +165,7 @@ export default function ProjectIngersAlternativ() {
         </div>
       </section>
       <section>
-        <Link to='/projects' className='demo-code--button back-to-projects'>
+        <Link to='/projects' className='button back-to-projects'>
           Back to Projects
         </Link>
       </section>

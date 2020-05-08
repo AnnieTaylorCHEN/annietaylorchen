@@ -23,7 +23,6 @@
 
 .rebrandimg {
     grid-area: rebrandimg;
-    max-height: 450px;
 }
 
 .rebrandimg img {
@@ -83,20 +82,15 @@
     z-index: 1;
 }
 
-@media (max-width: 1400px) and (min-width: 801px) {
+@media (max-width: 1400px){
     .inger-grid {
         padding: 2rem 4rem;
         grid-row-gap: 1rem;
     }
-
-    .inger-grid .project-text {
-        font-size: 1rem;
-    }
-    
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .inger-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
@@ -110,11 +104,6 @@
         "card";
         padding: 1rem 2rem;
         grid-row-gap: 1rem;
-    }
-
-    .inger-grid .project-text {
-        padding: 0rem 1rem;
-        font-size: 1rem;
     }
 
     .inger-rebrand, .inger-challenge {

@@ -9,44 +9,67 @@
 @import './meowlo.css';
 @import './mars.css';
 @import './pmblog.css';
+@import './pmstore.css';
 @import './contact.css';
 @import './resources.css';
 @import './footer.css';
 
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 html {
-    --brand-blue: hsla(224, 75%, 50%, 1);
-    --brand-blue--light: hsla(217, 100%, 56%, 1);
-    --light-gray: hsla(0, 0%, 90%, 0.5);
-    --gray: hsla(0, 0%, 65%, 1);
+  --brand-blue: hsla(224, 75%, 50%, 1);
+  --brand-blue--light: hsla(217, 100%, 56%, 1);
+  --light-gray: hsla(0, 0%, 90%, 0.5);
+  --gray: hsla(0, 0%, 65%, 1);
 }
 
 p {
-    padding: 0.3rem 0;
+  padding: 0.3rem 0;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:visited {
-    color: inherit;
+  color: inherit;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 button:focus {
-    outline: none !important;
+  outline: none !important;
+}
+
+.button {
+  color: var(--brand-blue);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 3px solid var(--brand-blue);
+}
+
+.button:hover {
+  color: white;
+  background-color: var(--brand-blue);
+}
+
+.highlight {
+  color: var(--brand-blue--light);
+}
+
+.underline {
+  text-decoration: underline;
 }

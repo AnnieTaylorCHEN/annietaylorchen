@@ -179,7 +179,7 @@ export default function About() {
             Good to know: I am an awesome{' '}
             <span className='highlight'>vegan cook</span> and run a lifestyle
             blog{' '}
-            <span className='highlight pm'>
+            <span className='highlight underline'>
               <a
                 href='https://www.petiteandminimal.com/'
                 target='_blank'

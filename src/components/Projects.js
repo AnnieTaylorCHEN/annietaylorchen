@@ -27,7 +27,7 @@ const projectsData = [
     img: '/imgs/projects/project-meowlo-cover.jpg',
     alt: 'project Meowlo cover',
     summary: 'An MVC website for a cat start-up.',
-    tech: 'HTML, CSS, Javascript, Node.js, Api',
+    tech: 'HTML, CSS, Javascript, Node.js, APIs',
     url: '/projects/meowlo'
   },
   {

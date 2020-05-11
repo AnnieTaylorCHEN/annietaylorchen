@@ -44,6 +44,12 @@ const inspirationData = [
     description: 'The five best design links, every day.',
     url: 'https://sidebar.io/',
   },
+  {
+    img: '/imgs/resources/armory.jpg',
+    name: 'Armory',
+    description: 'The missing resource library for designers/creative coders.',
+    url: 'https://armory.visualsoldiers.com/',
+  },
 ]
 
 const Inspiration = () => {

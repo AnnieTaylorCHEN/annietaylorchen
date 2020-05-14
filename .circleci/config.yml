@@ -1,13 +1,22 @@
 version: 2.1
 
 jobs:
-  test:
+  prepare:
+    docker:
+      - image: circleci/node:12.10.0
+    steps:
+      - checkout
+      - run:
+          name: install dependencies
+          command: npm install
+
+  eslint:
     docker:
       - image: circleci/node:12.10.0
     steps:
       - run:
-          name: Test
-          command: react-scripts test
+          name: ESLint
+          command: npm run eslint
 
   stylelint:
     docker:
@@ -15,12 +24,16 @@ jobs:
     steps:
       - run:
           name: Prettier
-          command: prettier --write \"**/*.{js,jsx,json,md}\"
+          command: npm run prettier
 
 workflows:
   version: 2
   validate:
     jobs:
-      - test:
+      - prepare
+      - eslint:
+          requires:
+            - prepare
       - stylelint:
- 
+          requires:
+            - prepare

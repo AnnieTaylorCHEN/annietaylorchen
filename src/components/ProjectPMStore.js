@@ -1,28 +1,28 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function PMStore() {
   return (
     <div>
-      <section className='project-grid'>
-        <div className='project-intro'>
-          <h2 className='project-title'>
+      <section className="project-grid">
+        <div className="project-intro">
+          <h2 className="project-title">
             The Making of Petite &amp; Minimal Store
           </h2>
-          <p className='project-text'>
+          <p className="project-text">
             <a
-              className='highlight underline'
-              href='https://www.petiteandminimal.com/'
-              target='_blank'
-              rel='noopener noreferrer'
+              className="highlight underline"
+              href="https://www.petiteandminimal.com/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Petite &amp; Minimal
-            </a>{' '}
+            </a>{" "}
             is actually my lifestyle website (which I also coded myself, you can
-            read{' '}
+            read{" "}
             <Link
-              className='highlight underline'
-              to='/projects/petiteandminimalblog'
+              className="highlight underline"
+              to="/projects/petiteandminimalblog"
             >
               The Making of Petite &amp; Minimal
             </Link>
@@ -34,49 +34,49 @@ export default function PMStore() {
           </p>
         </div>
 
-        <div className='did'>
-          <h3 className='project-subtitle'>What I did</h3>
+        <div className="did">
+          <h3 className="project-subtitle">What I did</h3>
           <ol>
-            <li className='did-list-item'>Content Creation</li>
-            <li className='did-list-item'>Image Processing </li>
-            <li className='did-list-item'>Web Development</li>
+            <li className="did-list-item">Content Creation</li>
+            <li className="did-list-item">Image Processing </li>
+            <li className="did-list-item">Web Development</li>
           </ol>
         </div>
 
-        <div className='tech'>
-          <h3 className='project-subtitle'>Tech I used</h3>
+        <div className="tech">
+          <h3 className="project-subtitle">Tech I used</h3>
           <ol>
-            <li className='did-list-item'>Gatsby.js</li>
-            <li className='did-list-item'>GraphQL</li>
-            <li className='did-list-item'>Contentful</li>
-            <li className='did-list-item'>Commercelayer</li>
+            <li className="did-list-item">Gatsby.js</li>
+            <li className="did-list-item">GraphQL</li>
+            <li className="did-list-item">Contentful</li>
+            <li className="did-list-item">Commercelayer</li>
           </ol>
         </div>
-        <div className='demo-code'>
+        <div className="demo-code">
           <a
-            className='button'
-            href='https://petiteandminimalstore.netlify.app/'
-            target='_blank'
-            rel='noopener noreferrer'
+            className="button"
+            href="https://petiteandminimalstore.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LIVE DEMO
           </a>
 
           <a
-            className='button'
-            href='https://github.com/AnnieTaylorCHEN/PetiteandMinimalStore'
-            target='_blank'
-            rel='noopener noreferrer'
+            className="button"
+            href="https://github.com/AnnieTaylorCHEN/PetiteandMinimalStore"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             VIEW CODE
           </a>
         </div>
       </section>
 
-      <section className='pmstore-grid'>
-        <div className='pmstore-story1'>
-          <h4 className='context-subtitle'>Why JAMstack?</h4>
-          <p className='project-text'>
+      <section className="pmstore-grid">
+        <div className="pmstore-story1">
+          <h4 className="context-subtitle">Why JAMstack?</h4>
+          <p className="project-text">
             JAM refers to javascript, api and markdown. It separates the
             front-end presentation, content management and back-end logic to
             different modules. It unlocks designer and coder’s creativity for
@@ -87,27 +87,27 @@ export default function PMStore() {
             security or complicity of the back-end.
           </p>
         </div>
-        <div className='pmstore-media1'>
-          <video width='100%' height='auto' muted loop autoPlay playsInline>
+        <div className="pmstore-media1">
+          <video width="100%" height="auto" muted loop autoPlay playsInline>
             <source
-              src='/imgs/projects/petiteandminimalstore-video-1.mp4'
-              type='video/mp4'
+              src="/imgs/projects/petiteandminimalstore-video-1.mp4"
+              type="video/mp4"
             />
             Your browser doesn't support the media tag.
           </video>
         </div>
-        <div className='pmstore-media2'>
-          <video width='100%' height='auto' muted loop autoPlay playsInline>
+        <div className="pmstore-media2">
+          <video width="100%" height="auto" muted loop autoPlay playsInline>
             <source
-              src='/imgs/projects/petiteandminimalstore-video-2.mp4'
-              type='video/mp4'
+              src="/imgs/projects/petiteandminimalstore-video-2.mp4"
+              type="video/mp4"
             />
             Your browser doesn't support the media tag.
           </video>
         </div>
-        <div className='pmstore-story2'>
-          <h4 className='context-subtitle'>The Architecture</h4>
-          <p className='project-text'>
+        <div className="pmstore-story2">
+          <h4 className="context-subtitle">The Architecture</h4>
+          <p className="project-text">
             For this project I used:
             <br />
             - Contentful as my headless CMS;
@@ -133,16 +133,16 @@ export default function PMStore() {
             you won't see certain items, such as coats in US market.
           </p>
         </div>
-        <div className='pmstore-story3'>
-          <h4 className='context-subtitle'>More details</h4>
-          <p className='project-text'>
+        <div className="pmstore-story3">
+          <h4 className="context-subtitle">More details</h4>
+          <p className="project-text">
             For more details about JAMstack e-commerce demo, please refer to the
-            essay I wrote for this project.{' '}
+            essay I wrote for this project.{" "}
           </p>
-          <div className='download-pdf'>
+          <div className="download-pdf">
             <Link
-              to='/imgs/Annie-Taylor-Chen-JAMstack-Ecommerce_compressed.pdf'
-              className='button'
+              to="/imgs/Annie-Taylor-Chen-JAMstack-Ecommerce_compressed.pdf"
+              className="button"
             >
               Download PDF
             </Link>
@@ -151,10 +151,10 @@ export default function PMStore() {
       </section>
 
       <section>
-        <Link to='/projects' className='button back-to-projects'>
+        <Link to="/projects" className="button back-to-projects">
           Back to Projects
         </Link>
       </section>
     </div>
-  )
+  );
 }

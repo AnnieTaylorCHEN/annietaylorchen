@@ -1,0 +1,26 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: circleci/node:12.10.0
+    steps:
+      - run:
+          name: Test
+          command: react-scripts test
+
+  stylelint:
+    docker:
+      - image: circleci/node:12.10.0
+    steps:
+      - run:
+          name: Prettier
+          command: prettier --write \"**/*.{js,jsx,json,md}\"
+
+workflows:
+  version: 2
+  validate:
+    jobs:
+      - test:
+      - stylelint:
+ 

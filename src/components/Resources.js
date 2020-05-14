@@ -1,41 +1,41 @@
-import React from 'react'
-import { Tabs, useTabState, usePanelState } from '@bumaga/tabs'
-import DevMag from './resources/DevMag'
-import Inspiration from './resources/Inspiration'
-import FreeAssets from './resources/FreeAssets'
-import Typography from './resources/Typography'
-import Colors from './resources/Colors'
-import ProcessingTools from './resources/ProcessingTools'
-import DevTools from './resources/DevTools'
-import Hosting from './resources/Hosting'
-import Javascript from './resources/Javascript'
-import ComputerScience from './resources/ComputerScience'
+import React from "react";
+import { Tabs, useTabState, usePanelState } from "@bumaga/tabs";
+import DevMag from "./resources/DevMag";
+import Inspiration from "./resources/Inspiration";
+import FreeAssets from "./resources/FreeAssets";
+import Typography from "./resources/Typography";
+import Colors from "./resources/Colors";
+import ProcessingTools from "./resources/ProcessingTools";
+import DevTools from "./resources/DevTools";
+import Hosting from "./resources/Hosting";
+import Javascript from "./resources/Javascript";
+import ComputerScience from "./resources/ComputerScience";
 
 const Tab = ({ children }) => {
-  const { onClick, isActive } = useTabState()
+  const { onClick, isActive } = useTabState();
 
   return (
     <button
-      className={isActive ? 'resource-btn is-active' : 'resource-btn'}
+      className={isActive ? "resource-btn is-active" : "resource-btn"}
       onClick={onClick}
     >
       {children}
     </button>
-  )
-}
+  );
+};
 
 const Panel = ({ children }) => {
-  const isActive = usePanelState()
+  const isActive = usePanelState();
 
-  return isActive ? <>{children}</> : null
-}
+  return isActive ? <>{children}</> : null;
+};
 
 const Resources = () => (
   <>
-    <h2 className='resources-title'>Resources</h2>
-    <div className='resources-container'>
+    <h2 className="resources-title">Resources</h2>
+    <div className="resources-container">
       <Tabs>
-        <div className='tab-container'>
+        <div className="tab-container">
           <Tab>Dev Magazines</Tab>
           <Tab>Inspiration</Tab>
           <Tab>Free Assets</Tab>
@@ -81,6 +81,6 @@ const Resources = () => (
       </Tabs>
     </div>
   </>
-)
+);
 
-export default Resources
+export default Resources;

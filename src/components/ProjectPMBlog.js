@@ -1,44 +1,44 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function PMBlog() {
   return (
     <div>
-      <section className='project-grid'>
-        <div className='project-intro'>
-          <h2 className='project-title'>The Making of Petite &amp; Minimal</h2>
-          <p className='project-text'>
+      <section className="project-grid">
+        <div className="project-intro">
+          <h2 className="project-title">The Making of Petite &amp; Minimal</h2>
+          <p className="project-text">
             I have been wanting to have my very own website for Petite &amp;
             Minimal for a long time: my design, my code and my content. However,
             due to my limited knowledge in coding before, I could only do
             certain things within other people's template. Now I finally did a
-            revamp and said goodbye to Wordpress.{' '}
+            revamp and said goodbye to Wordpress.{" "}
           </p>
         </div>
 
-        <div className='did'>
-          <h3 className='project-subtitle'>What I did</h3>
+        <div className="did">
+          <h3 className="project-subtitle">What I did</h3>
           <ol>
-            <li className='did-list-item'>Content Creation</li>
-            <li className='did-list-item'>Photography and Image Processing </li>
-            <li className='did-list-item'>Web Development</li>
+            <li className="did-list-item">Content Creation</li>
+            <li className="did-list-item">Photography and Image Processing </li>
+            <li className="did-list-item">Web Development</li>
           </ol>
         </div>
 
-        <div className='tech'>
-          <h3 className='project-subtitle'>Tech I used</h3>
+        <div className="tech">
+          <h3 className="project-subtitle">Tech I used</h3>
           <ol>
-            <li className='did-list-item'>Gatsby.js</li>
-            <li className='did-list-item'>GraphQL</li>
-            <li className='did-list-item'>Third Party APIs</li>
+            <li className="did-list-item">Gatsby.js</li>
+            <li className="did-list-item">GraphQL</li>
+            <li className="did-list-item">Third Party APIs</li>
           </ol>
         </div>
-        <div className='demo-code'>
+        <div className="demo-code">
           <a
-            className='button'
-            href='https://www.petiteandminimal.com/'
-            target='_blank'
-            rel='noopener noreferrer'
+            className="button"
+            href="https://www.petiteandminimal.com/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LIVE DEMO
           </a>
@@ -49,12 +49,12 @@ export default function PMBlog() {
         </div>
       </section>
 
-      <section className='pmblog-grid'>
-        <div className='pmblog-story1'>
-          <h4 className='context-subtitle'>
+      <section className="pmblog-grid">
+        <div className="pmblog-story1">
+          <h4 className="context-subtitle">
             Why I want to migrate from Wordpress?
           </h4>
-          <p className='project-text'>
+          <p className="project-text">
             Don't get me wrong, Wordpress has done its job beautifully before
             and I am truly grateful for that. It enabled me to do a lot of
             things without knowing too much about coding. However, as my needs
@@ -68,25 +68,25 @@ export default function PMBlog() {
             design the site myself, but without knowing php I couldn't do much.
           </p>
         </div>
-        <div className='pmblog-media1'>
-          <div className='ba-tag before'>before</div>
-          <video width='100%' height='auto' muted loop autoPlay playsInline>
+        <div className="pmblog-media1">
+          <div className="ba-tag before">before</div>
+          <video width="100%" height="auto" muted loop autoPlay playsInline>
             <source
-              src='/imgs/projects/petite-minimal-wordpress.mp4'
-              type='video/mp4'
+              src="/imgs/projects/petite-minimal-wordpress.mp4"
+              type="video/mp4"
             />
             Your browser doesn't support the media tag.
           </video>
         </div>
-        <div className='pmblog-media2'>
+        <div className="pmblog-media2">
           <img
-            src='/imgs/projects/wordpress-to-jamstack.jpg'
-            alt='wordpress to jamstack'
+            src="/imgs/projects/wordpress-to-jamstack.jpg"
+            alt="wordpress to jamstack"
           />
         </div>
-        <div className='pmblog-story2'>
-          <h4 className='context-subtitle'>Switching to JAMStack</h4>
-          <p className='project-text'>
+        <div className="pmblog-story2">
+          <h4 className="context-subtitle">Switching to JAMStack</h4>
+          <p className="project-text">
             After 1.5 years of learning to code, I finally made the decision to
             migrate my site, and this time I used the JAMstack. I also decided
             to rebrand the site, with new color palette, typography, and edit
@@ -101,16 +101,16 @@ export default function PMBlog() {
             security issues or updating things constantly.
           </p>
         </div>
-        <div className='pmblog-story3'>
-          <h4 className='context-subtitle'>The Migration</h4>
-          <p className='project-text'>
+        <div className="pmblog-story3">
+          <h4 className="context-subtitle">The Migration</h4>
+          <p className="project-text">
             I started by forking a gatsby starter and made a simple basic
             boilerplate that contains basic blogging and page logic. This way I
             have the best control of the version than using some other more
             completed starter, which might use some older versions of libraries
             which can break if you try to update to the latest.
           </p>
-          <p className='project-text'>
+          <p className="project-text">
             Then I prepared my posts by dividing them into a section of
             "frontmatter" and main text. The front matter is the meta
             information, such as title, featured image, url, excerpt, date etc
@@ -120,7 +120,7 @@ export default function PMBlog() {
             code. I decide to minimize that part so I can focus on better
             content, after all that's the core of a blog!
           </p>
-          <p className='project-text'>
+          <p className="project-text">
             The last part is of course to style the details. Now since I can
             write code, I can style everything to my heart's content. I really
             love interaction which makes the static site more lively. Although
@@ -133,51 +133,51 @@ export default function PMBlog() {
             shipped and in the end when it is all finished, I only needed to
             move my domain name to my new site.
           </p>
-          <video width='100%' height='auto' muted loop autoPlay playsInline>
-            <source src='/imgs/projects/pmblog-hover.mp4' type='video/mp4' />
+          <video width="100%" height="auto" muted loop autoPlay playsInline>
+            <source src="/imgs/projects/pmblog-hover.mp4" type="video/mp4" />
             Your browser doesn't support the video tag.
           </video>
         </div>
-        <div className='pmblog-media3'>
-          <div className='ba-tag after'>after</div>
-          <video width='100%' height='auto' muted loop autoPlay playsInline>
-            <source src='/imgs/projects/pmblog.mp4' type='video/mp4' />
+        <div className="pmblog-media3">
+          <div className="ba-tag after">after</div>
+          <video width="100%" height="auto" muted loop autoPlay playsInline>
+            <source src="/imgs/projects/pmblog.mp4" type="video/mp4" />
             Your browser doesn't support the video tag.
           </video>
-          <p className='project-text'>
+          <p className="project-text">
             As you can see, the final result for performance testing is very
             very good. My performance, accessability, SEO, best practices have
             all achieved good score. You might notice images show up very soon
             as blurred versions first, then they become clear quickly as they
-            loaded, instead of as blank. Now I am finally satisfied!{' '}
-            <span role='img' aria-label='smiley face'>
+            loaded, instead of as blank. Now I am finally satisfied!{" "}
+            <span role="img" aria-label="smiley face">
               &#9786;
             </span>
           </p>
         </div>
 
-        <div className='pmblog-media4'>
-          <div className='ba-tag before'>before</div>
+        <div className="pmblog-media4">
+          <div className="ba-tag before">before</div>
           <img
-            src='/imgs/projects/pmblog-before.jpg'
-            alt='wordpress to jamstack'
+            src="/imgs/projects/pmblog-before.jpg"
+            alt="wordpress to jamstack"
           />
         </div>
 
-        <div className='pmblog-media5'>
-          <div className='ba-tag after'>after</div>
+        <div className="pmblog-media5">
+          <div className="ba-tag after">after</div>
           <img
-            src='/imgs/projects/pmblog-after.jpg'
-            alt='wordpress to jamstack'
+            src="/imgs/projects/pmblog-after.jpg"
+            alt="wordpress to jamstack"
           />
         </div>
       </section>
 
       <section>
-        <Link to='/projects' className='button back-to-projects'>
+        <Link to="/projects" className="button back-to-projects">
           Back to Projects
         </Link>
       </section>
     </div>
-  )
+  );
 }

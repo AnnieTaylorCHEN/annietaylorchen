@@ -15,10 +15,10 @@ jobs:
           name: install dependencies
           command: npm install
       - save_cache:
-      key: npm-dependencies-{{ checksum "package.json" }}
-      paths:
-        - ./node_modules
-        - ~/.cache/npm
+          key: npm-dependencies-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+            - ~/.cache/npm
       - persist_to_workspace:
           root: .
           paths:

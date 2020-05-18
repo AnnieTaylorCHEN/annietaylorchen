@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="site-links__part1">
             <Link to="/about">About</Link>
             <a
-              href="/imgs/Annie-Taylor-CHEN-resume.pdf"
+              href="/imgs/Annie-Taylor-Chen-Resume-2020-05.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

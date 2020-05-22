@@ -44,6 +44,13 @@ const freeAssetsData = [
     url: "https://mixkit.co/",
   },
   {
+    img: "/imgs/resources/aiva.jpg",
+    name: "AIVA",
+    description:
+      "AIVA, the Artificial Intelligence music composer that creates original & personalized music for your projects.",
+    url: "https://www.aiva.ai/",
+  },
+  {
     img: "/imgs/resources/free-sound.jpg",
     name: "Free Sound",
     description:

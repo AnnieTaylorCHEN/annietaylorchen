@@ -56,6 +56,12 @@ const devToolsData = [
     url: "https://w3bits.com/tools/masonry-generator/",
   },
   {
+    img: "/imgs/resources/ease.jpg",
+    name: "Ease Function Cheatsheet",
+    description: "Easing functions specify the rate of change of a parameter over time.",
+    url: "https://easings.net/en#",
+  },
+  {
     img: "/imgs/resources/css-filter-black-hex.jpg",
     name: "CSS Filter Convert Black to Target Hex Color",
     description: "Using CSS filter to convert black to target hex color.",

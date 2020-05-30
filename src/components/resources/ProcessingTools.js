@@ -17,6 +17,13 @@ const processingToolsData = [
     url: "https://www.canva.com/",
   },
   {
+    img: "/imgs/resources/photopea.jpg",
+    name: "Photopea",
+    description:
+      "Photopea Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures. Do Online Photo Editing in your browser for free!",
+    url: "https://www.photopea.com/",
+  },
+  {
     img: "/imgs/resources/pixlr.jpg",
     name: "Pixlr",
     description:

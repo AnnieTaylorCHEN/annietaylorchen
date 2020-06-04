@@ -82,6 +82,16 @@
     font-weight: 500;
 }
 
+@media (max-width:2000px) {
+    .projects-title {
+        font-size: 3rem;
+    }
+
+    .projects {
+        padding: 4rem 5rem;
+    }
+}
+
 @media (max-width:1200px){
     .projects-title {
         font-size: 2rem;

@@ -12,7 +12,7 @@ const projectsData = [
   {
     img: "/imgs/projects/project-pmblog-cover.jpg",
     alt: "project Petite and Minimal Blog cover",
-    summary: "A JAMstack website for a personal blog.",
+    summary: "A JAMstack eco-friendly lifestyle website.",
     tech: "Gatsby, GraphQL, APIs",
     url: "/projects/petiteandminimalblog",
   },

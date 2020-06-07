@@ -116,6 +116,13 @@ const devToolsData = [
       "Instantly review your website for free with the WooRank SEO Checker! Find issues, track keywords, identify opportunities & create reports.",
     url: "https://www.woorank.com/",
   },
+  {
+    img: "/imgs/resources/built-with.jpg",
+    name: "Built With - Website Tech Analysis",
+    description:
+      "Web technology information profiler tool, lead generation, competitive analysis and business intelligence tool providing technology adoption, ecommerce data and usage analytics for the internet.",
+    url: "https://builtwith.com/",
+  },
 ];
 
 const DevTools = () => {

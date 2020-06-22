@@ -33,6 +33,7 @@ export default function ProjectIngersAlternativ() {
             <li className="did-list-item">CSS3</li>
             <li className="did-list-item">Javascript </li>
           </ol>
+          <h3 className="project-subtitle--year">Year: 2018</h3>
         </div>
         <div className="demo-code">
           <a

@@ -36,6 +36,7 @@ export default function ProjectMars() {
             <li className="did-list-item">MongoDB</li>
             <li className="did-list-item">Stripe</li>
           </ol>
+          <h3 className="project-subtitle--year">Year: 2019</h3>
         </div>
         <div className="demo-code">
           <a

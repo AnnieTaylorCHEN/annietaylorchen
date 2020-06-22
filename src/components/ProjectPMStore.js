@@ -50,6 +50,7 @@ export default function PMStore() {
             <li className="did-list-item">GraphQL</li>
             <li className="did-list-item">Contentful</li>
             <li className="did-list-item">Commercelayer</li>
+            <h3 className="project-subtitle--year">Year: 2020</h3>
           </ol>
         </div>
         <div className="demo-code">

@@ -19,7 +19,7 @@ const projectsData = [
   {
     img: "/imgs/projects/project-mars-cover.jpg",
     alt: "project Thirty Seconds to Mars cover",
-    summary: "An MERN stack website for band - promotion, e-commerce, community.",
+    summary: "A MERN stack website for band - promotion, e-commerce, community.",
     tech: "React, Redux, MongoDB, Node.js, Stripe",
     url: "/projects/thirtysecondstomars",
   },

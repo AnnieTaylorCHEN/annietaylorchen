@@ -30,6 +30,11 @@
   margin-bottom: 1rem;
 }
 
+.project-subtitle--year {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
 .project-text {
   font-size: 1.3rem;
   line-height: 1.5;

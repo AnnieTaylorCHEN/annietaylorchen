@@ -82,6 +82,7 @@
     font-weight: 500;
 }
 
+
 @media (max-width:2000px) {
     .projects-title {
         font-size: 3rem;

@@ -72,6 +72,13 @@ export default function Footer() {
 					<div className="site-links__part2">
 						<Link to="/projects">Projects</Link>
 						<Link to="/resources">Resources</Link>
+            <a
+							href="https://dev.to/annietaylorchen"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Tech Blog 
+						</a>
 						<a
 							href="https://www.petiteandminimal.com/"
 							target="_blank"

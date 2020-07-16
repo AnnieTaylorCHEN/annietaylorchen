@@ -58,7 +58,8 @@ const devToolsData = [
   {
     img: "/imgs/resources/ease.jpg",
     name: "Ease Function Cheatsheet",
-    description: "Easing functions specify the rate of change of a parameter over time.",
+    description:
+      "Easing functions specify the rate of change of a parameter over time.",
     url: "https://easings.net/en#",
   },
   {

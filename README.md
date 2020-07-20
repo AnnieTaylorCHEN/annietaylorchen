@@ -1,12 +1,14 @@
-# Annie Taylor Chen - My portfolio site
-
-![Screenshot of the site](./docs/images/annietaylorchen-screenshot.png)
+# Hi 🐱! I am
 ![annie svg](./docs/images/annie.svg)
 
-## Live demo
+I'm a hybrid of coder + designer + photographer. I love innovative and creative projects. 
 
-[Annie Taylor Chen](https://www.annietaylorchen.com/)
+I am also an awesome vegan cook and run an eco-friendly website called [Petite & Minimal](https://www.petiteandminimal.com/).
 
-## Tech and Micro-services used
 
-- React
+Feel free to check out my [portfolio](https://www.annietaylorchen.com/)👇👇👇. 
+
+
+[![Screenshot of the site](./docs/images/annietaylorchen-screenshot.png)](https://www.annietaylorchen.com/)
+
+

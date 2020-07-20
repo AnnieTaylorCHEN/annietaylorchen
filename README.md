@@ -1,5 +1,5 @@
 # Hi 🐱! I am
-![annie svg](./docs/images/annie.svg)
+![annie svg](/docs/images/annie.svg)
 
 I'm a hybrid of coder + designer + photographer. I love innovative and creative projects. 
 
@@ -9,6 +9,6 @@ I am also an awesome vegan cook and run an eco-friendly website called [Petite &
 Feel free to check out my [portfolio](https://www.annietaylorchen.com/)👇👇👇. 
 
 
-[![Screenshot of the site](./docs/images/annietaylorchen-screenshot.png)](https://www.annietaylorchen.com/)
+[![Screenshot of the site](/docs/images/annietaylorchen-screenshot.png)](https://www.annietaylorchen.com/)
 
 

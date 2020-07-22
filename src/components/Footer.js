@@ -33,11 +33,11 @@ const socialLinks = [
   //   alt: "annietaylorchen-facebook",
   //   url: "https://www.facebook.com/PetiteandMinimal/",
   // },
-  // {
-  //   img: "/imgs/social/twitter.svg",
-  //   alt: "annietaylorchen-twitter",
-  //   url: "https://twitter.com/petiteminimal",
-  // },
+  {
+    img: "/imgs/social/twitter.svg",
+    alt: "annietaylorchen-twitter",
+    url: "https://twitter.com/annietaylorchen",
+  },
   {
     img: "/imgs/social/instagram.svg",
     alt: "annietaylorchen-instagram",

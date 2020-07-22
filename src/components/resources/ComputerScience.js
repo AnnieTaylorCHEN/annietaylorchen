@@ -56,6 +56,13 @@ const csData = [
       "Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview.",
     url: "https://leetcode.com/",
   },
+  {
+    img: "/imgs/resources/teachyourselfcs.jpg",
+    name: "Teach Yourself CS",
+    description:
+      "If you’re a self-taught engineer or bootcamp grad, you owe it to yourself to learn computer science. Thankfully, you can give yourself a world-class CS education without investing years and a small fortune in a degree program.",
+    url: "https://teachyourselfcs.com/",
+  },
 ];
 
 const ComputerScience = () => {

@@ -31,6 +31,7 @@ export default function PMBlog() {
             <li className="did-list-item">Gatsby.js</li>
             <li className="did-list-item">GraphQL</li>
             <li className="did-list-item">Third Party APIs</li>
+            <li className="did-list-item">Netlify</li>
           </ol>
           <h3 className="project-subtitle--year">Year: 2020</h3>
         </div>

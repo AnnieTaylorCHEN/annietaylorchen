@@ -34,7 +34,7 @@ export default function ProjectMeowlo() {
         <div className="demo-code">
           <a
             className="button"
-            href="https://meowlo.herokuapp.com/"
+            href="https://meowlo.annietaylorchen.com/"
             target="_blank"
             rel="noopener noreferrer"
           >

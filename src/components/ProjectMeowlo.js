@@ -28,6 +28,7 @@ export default function ProjectMeowlo() {
             <li className="did-list-item">Node.js</li>
             <li className="did-list-item">Handlebars.js</li>
             <li className="did-list-item">Several API</li>
+            <li className="did-list-item">Digital Ocean</li>
           </ol>
           <h3 className="project-subtitle--year">Year: 2019</h3>
         </div>
@@ -48,10 +49,6 @@ export default function ProjectMeowlo() {
           >
             VIEW CODE
           </a>
-          <small>
-            You might experience 5-20 seconds delay for app to wake up
-            sometimes, please be patient. Thanks!
-          </small>
         </div>
       </section>
 

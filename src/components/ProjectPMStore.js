@@ -57,7 +57,7 @@ export default function PMStore() {
 				<div className='demo-code'>
 					<a
 						className='button'
-						href='https://petiteandminimalstore.netlify.app/'
+						href='https://pmstore.annietaylorchen.com/'
 						target='_blank'
 						rel='noopener noreferrer'
 					>

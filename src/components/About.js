@@ -37,6 +37,16 @@ const logoG1 = [
     name: "Next.js",
   },
   {
+    img: "/imgs/about/svelte.svg",
+    alt: "Svelte logo",
+    name: "Svelte",
+  },
+  {
+    img: "/imgs/about/threejs.svg",
+    alt: "Three.js logo",
+    name: "Three.js",
+  },
+  {
     img: "/imgs/about/d3.svg",
     alt: "D3 logo",
     name: "D3",
@@ -95,6 +105,11 @@ const logoG1 = [
     img: "/imgs/about/netlify.svg",
     alt: "netlify logo",
     name: "Netlify",
+  },
+  {
+    img: "/imgs/about/digitalocean.svg",
+    alt: "Digital Ocean logo",
+    name: "Digital Ocean",
   },
   {
     img: "/imgs/about/linux-mint.svg",
@@ -221,7 +236,7 @@ export default function About() {
       </section>
 
       <section className="skills">
-        <h3>Programming</h3>
+        <h3>Developer Tool Belt</h3>
         <div className="skills__option">
           {logoG1.map((logo) => (
             <ItemRender key={logo.name} logo={logo} />

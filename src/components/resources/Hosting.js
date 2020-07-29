@@ -44,6 +44,13 @@ const hostingData = [
       "Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business.",
     url: "https://firebase.google.com/",
   },
+  {
+    img: "/imgs/resources/digitalocean.jpg",
+    name: "Digital Ocean",
+    description:
+      "Helping millions of developers easily build, test, manage, and scale applications of any size – faster than ever before.",
+    url: "https://www.digitalocean.com/",
+  },
 ];
 
 const Hosting = () => {

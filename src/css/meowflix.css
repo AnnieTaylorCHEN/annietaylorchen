@@ -1,0 +1,64 @@
+.meowflix-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "story story video video video"
+    "image image image image image"
+    "video2 video2 video2 story2 story2";
+    grid-column-gap: 1rem;
+    grid-row-gap: 5rem;
+    padding: 2rem 12rem;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.meowflix-story {
+    grid-area: story;
+    margin-right: 4rem;
+}
+
+.meowflix-video {
+    grid-area: video;
+}
+
+.meowflix-image {
+    grid-area: image;
+    display: flex;
+}
+
+.meowflix-story2 {
+    grid-area: story2;
+    margin-left: 4rem;
+}
+
+.meowflix-video2 {
+    grid-area: video2;
+}
+
+@media (max-width: 1025px) and (min-width: 801px) {
+    .meowflix-grid {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .meowflix-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "story"
+        "video"
+        "image"
+        "story2"
+        "video2";
+        padding: 1rem 2rem;
+    }
+
+    .meowflix-image {
+        flex-direction: column;
+    }
+
+    .meowflix-story, .meowflix-story2 {
+        margin: 0rem;
+    }
+}

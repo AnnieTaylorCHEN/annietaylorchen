@@ -37,9 +37,9 @@ export default function PMStore() {
 				<div className='did'>
 					<h3 className='project-subtitle'>What I did</h3>
 					<ol>
-						<li className='did-list-item'>Content Creation</li>
-						<li className='did-list-item'>Image Processing </li>
 						<li className='did-list-item'>Web Development</li>
+						<li className='did-list-item'>Content Creation</li>
+						<li className='did-list-item'>Graphic Design </li>
 					</ol>
 				</div>
 

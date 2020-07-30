@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 
 const projectsData = [
   {
+    img: "/imgs/projects/project-meowflix-cover.jpg",
+    alt: "project Meowflix cover",
+    summary: "A JAMstack movie streaming site with membership.",
+    tech: "Svelte, Strapi, Stripe",
+    url: "/projects/meowflix",
+  },
+  {
     img: "/imgs/projects/project-pm-store-cover.jpg",
     alt: "project Petite and Minimal Store cover",
     summary: "A JAMstack E-commerce solution.",

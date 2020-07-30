@@ -11,6 +11,7 @@ import ProjectMeowlo from "./ProjectMeowlo";
 import ProjectMars from "./ProjectMars";
 import ProjectPMBlog from "./ProjectPMBlog";
 import ProjectPMStore from "./ProjectPMStore";
+import ProjectMeowflix from "./ProjectMeowflix";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Profile from "./Profile";
@@ -42,6 +43,10 @@ export default function () {
         <Route
           path="/projects/petiteandminimalstore"
           component={ProjectPMStore}
+        />
+        <Route
+          path="/projects/meowflix"
+          component={ProjectMeowflix}
         />
         <Route path="/contact" component={Contact} />
         <Route path="/resources" component={Resources} />

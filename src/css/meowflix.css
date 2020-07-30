@@ -27,6 +27,10 @@
     display: flex;
 }
 
+.meowflix-image > img {
+    width: 50%;
+}
+
 .meowflix-story2 {
     grid-area: story2;
     margin-left: 4rem;
@@ -36,13 +40,7 @@
     grid-area: video2;
 }
 
-@media (max-width: 1025px) and (min-width: 801px) {
-    .meowflix-grid {
-        padding: 2rem 4rem;
-    }
-}
-
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
     .meowflix-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
@@ -56,6 +54,10 @@
 
     .meowflix-image {
         flex-direction: column;
+    }
+
+    .meowflix-image > img {
+        width: 100%;
     }
 
     .meowflix-story, .meowflix-story2 {

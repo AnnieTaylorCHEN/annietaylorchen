@@ -122,15 +122,14 @@
 	.project-title {
 		font-size: 3.5rem;
 	}
-}
-
-@media (max-width: 1200px) {
+	
 	.project-text,
 	h4 {
 		max-width: 800px;
 		margin: 0 auto;
 	}
 }
+
 
 @media (max-width: 1025px) {
 	.project-grid {

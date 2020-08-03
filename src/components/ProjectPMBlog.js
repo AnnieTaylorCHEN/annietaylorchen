@@ -147,6 +147,7 @@ export default function PMBlog() {
 						<source src='/imgs/projects/pmblog.mp4' type='video/mp4' />
 						Your browser doesn't support the video tag.
 					</video>
+					<h4 className='context-subtitle'>Improved Performance</h4>
 					<p className='project-text'>
 						As you can see, the final result for performance testing is very
 						very good. My performance, accessability, SEO, best practices have

@@ -102,9 +102,18 @@ export default function ProjectMeowflix() {
 				<div className='meowflix-story2'>
                 <h4 className='context-subtitle'>Svelte for Front-end</h4>
 					<p className='project-text'>
-						Svelte is a Javascript compiler which enables developers to write less code to perform the same functions. The bundle size it sends is also a lot smaller, compared to other major frameworks such as React, Vue or Angular, which usually use run-time library to make virtual DOM to manipulate the real DOM and update what you see in the browser. It almost "disappears" in the front-end, that's why it is blazingly fast. Svelte's state management is also easier than, for instance, Redux for React. Overall it makes me more productive and the final product has super nice performance. Not to mention the integrated transition and animation in Svelte has made it super easy for developers to improve user experience through adding a little visual effects.
+						Svelte is a Javascript compiler which enables developers to write less code to perform the same functions. The bundle size it sends is also a lot smaller, and it doesn't use virtual DOM. It almost "disappears" in the front-end, that's why it is blazingly fast. Svelte's state management is also easier than, for instance, Redux for React. Not to mention the integrated transition and animation in Svelte has made it super easy for developers to improve user experience through adding a little visual effects.
+					</p>
+					<p className='project-text'>
+						You might also noticed there is a "recommendation" in each movie page. Currently it's just a fake algorithm to randomly generate four movies to show. But in reality it's possible to track your user preferences and combine that with catalog categorization to provide a personalization service. 
+					</p>
+					<p className='project-text'>
+						Last but not least, I hope you enjoy those funny Meowflix Originals movie posters designed by me.  <span role="img" aria-label="cat smiley emoji">🐱</span> If you want to suggest more fun ideas about movies, feel free to drop me a line. 
 					</p>
 				</div>
+				<div className="meowflix-image2">
+                    <img src="/imgs/projects/meowflix-originals.jpg" alt="meowflix originals movie posters" />
+                </div>
 			</section>
 
 			<section>

@@ -77,6 +77,7 @@ export default function ProjectMeowlo() {
 					</video>
 				</div>
 				<div className='meowlo-story2'>
+				<h4 className='context-subtitle'>The Story</h4>
 					<p className='project-text'>
 						I wrote a back story of a group of cats that want to work to gain
 						more benefits. As a serious startup, they not only have registered

@@ -120,7 +120,7 @@ export default function PMStore() {
 						<br />
 						- Gatsby to generate static website for the store.
 						<br />
-						When a merchant uploads the information such as price, quanity and
+						When a merchant uploads the information such as price, quantity and
 						market availability about products in Commercelayer, a content
 						editor can go to Contentful to add more pictures and fill in
 						description of the products, then Gatsby pulls the data from both

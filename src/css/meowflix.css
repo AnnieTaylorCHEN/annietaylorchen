@@ -5,7 +5,8 @@
     grid-template-areas: 
     "story story video video video"
     "image image image image image"
-    "video2 video2 video2 story2 story2";
+    "video2 video2 video2 story2 story2"
+    "image2 image2 image2 image2 image2";
     grid-column-gap: 1rem;
     grid-row-gap: 5rem;
     padding: 2rem 12rem;
@@ -40,6 +41,10 @@
     grid-area: video2;
 }
 
+.meowflix-image2 {
+    grid-area: image2;
+}
+
 @media (max-width: 1500px) {
     .meowflix-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -48,7 +53,8 @@
         "video"
         "image"
         "story2"
-        "video2";
+        "video2"
+        "image2";
         padding: 1rem 2rem;
     }
 

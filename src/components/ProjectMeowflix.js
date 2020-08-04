@@ -77,7 +77,7 @@ export default function ProjectMeowflix() {
 				<div className='meowflix-story'>
 					<h4 className='context-subtitle'>Strapi as CMS</h4>
 					<p className='project-text'>
-						Strapi is an open source CMS. It's very easy to set up a strapi server locally and create content types in development mode. Then I ran a local build and uploaded it on Digital Ocean's VPS for hosting. The best thing about Strapi is that it comes with admin panel, from here you can easily manage the content, users, and orders. It also provides option to use plugin so images can be uploaded directly to Cloudinary, a third party media hosting service. GraphQL plugin also makes it easier to query data when you have more complicated content types. Then you can get your data through endpoints and use them in your front-end. That's why you can host your front-end and back-end on different servers. 
+						Strapi is an open source CMS. It's very easy to set up a strapi server locally and create content types in development mode. Then I ran a local build and uploaded it on Digital Ocean's VPS for hosting. The best thing about Strapi is that it comes with admin panel, from here you can easily manage the content, users, and orders. It also provides option to use plugin so images can be uploaded directly to Cloudinary, a third party media hosting service. GraphQL plugin also makes it easier to query data when you have more complicated content types. Then you can get your data through endpoints and use them in your front-end. Thus you can host your front-end and back-end on different servers. 
 					</p>
                     <p className='project-text'>
                     For payment I use Stripe and changed the UI to fit into my own design system. After the charge is successful, you shall get some cat loving!<span role="img" aria-label="cat loving emoji">😻</span>
@@ -105,7 +105,7 @@ export default function ProjectMeowflix() {
 						Svelte is a Javascript compiler which enables developers to write less code to perform the same functions. The bundle size it sends is also a lot smaller, and it doesn't use virtual DOM. It almost "disappears" in the front-end, that's why it is blazingly fast. Svelte's state management is also easier than, for instance, Redux for React. Not to mention the integrated transition and animation in Svelte has made it super easy for developers to improve user experience through adding a little visual effects.
 					</p>
 					<p className='project-text'>
-						You might also noticed there is a "recommendation" in each movie page. Currently it's just a fake algorithm to randomly generate four movies to show. But in reality it's possible to track your user preferences and combine that with catalog categorization to provide a personalization service. 
+						You might also notice there is a "recommendation" in each movie page. Currently it's just a fake algorithm to randomly generate four movies to show, but in reality it's possible to track your user preferences and combine that with catalog categorization to provide a personalization service. 
 					</p>
 					<p className='project-text'>
 						Last but not least, I hope you enjoy those funny Meowflix Originals movie posters designed by me.  <span role="img" aria-label="cat smiley emoji">🐱</span> If you want to suggest more fun ideas about movies, feel free to drop me a line. 

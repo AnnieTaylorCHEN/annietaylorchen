@@ -36,13 +36,15 @@ export default function ProjectMars() {
 						<li className='did-list-item'>Redux</li>
 						<li className='did-list-item'>MongoDB</li>
 						<li className='did-list-item'>Stripe</li>
+						<li className='did-list-item'>Netlify</li>
+						<li className='did-list-item'>Digital Ocean</li>
 					</ol>
 					<h3 className='project-subtitle--year'>Year: 2019</h3>
 				</div>
 				<div className='demo-code'>
 					<a
 						className='button'
-						href='https://thirtysecondstomars.herokuapp.com/'
+						href='https://30stomars.annietaylorchen.com/'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -56,10 +58,6 @@ export default function ProjectMars() {
 					>
 						VIEW CODE
 					</a>
-					<small>
-						You might experience 5-20 seconds delay for app to wake up
-						sometimes, please be patient. Thanks!
-					</small>
 				</div>
 			</section>
 

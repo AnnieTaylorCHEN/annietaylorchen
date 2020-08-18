@@ -9,7 +9,7 @@
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
     "react-router-sitemap": "^1.2.0",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",

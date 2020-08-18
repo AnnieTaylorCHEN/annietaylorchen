@@ -23,7 +23,7 @@ export default function ProjectMars() {
 						<li className='did-list-item'>Web Development</li>
 						<li className='did-list-item'>Content Creation</li>
 						<li className='did-list-item'>E-commerce Integration</li>
-            <li className='did-list-item'>Graphic Design</li>
+						<li className='did-list-item'>Graphic Design</li>
 						<li className='did-list-item'>Video Production </li>
 					</ol>
 				</div>

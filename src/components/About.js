@@ -17,9 +17,19 @@ const logoG1 = [
     name: "Javascript",
   },
   {
+    img: "/imgs/about/typescript.svg",
+    alt: "typescript logo",
+    name: "Typescript",
+  },
+  {
     img: "/imgs/about/react.svg",
     alt: "react logo",
     name: "React",
+  },
+  {
+    img: "/imgs/about/svelte.svg",
+    alt: "Svelte logo",
+    name: "Svelte",
   },
   {
     img: "/imgs/about/redux.svg",
@@ -35,11 +45,6 @@ const logoG1 = [
     img: "/imgs/about/next-js.svg",
     alt: "Next JS logo",
     name: "Next.js",
-  },
-  {
-    img: "/imgs/about/svelte.svg",
-    alt: "Svelte logo",
-    name: "Svelte",
   },
   {
     img: "/imgs/about/threejs.svg",
@@ -60,11 +65,6 @@ const logoG1 = [
     img: "/imgs/about/postman.svg",
     alt: "postman logo",
     name: "Postman",
-  },
-  {
-    img: "/imgs/about/typescript.svg",
-    alt: "typescript logo",
-    name: "Typescript",
   },
   {
     img: "/imgs/about/nodejs.svg",
@@ -147,6 +147,11 @@ const logoG2 = [
 ];
 
 const logoG3 = [
+  {
+    img: "/imgs/about/go.svg",
+    alt: "Go logo",
+    name: "Go",
+  },
   {
     img: "/imgs/about/python.svg",
     alt: "python logo",

@@ -24,6 +24,20 @@ const inspirationData = [
     url: "https://www.awwwards.com/",
   },
   {
+    img: "/imgs/resources/fwa.jpg",
+    name: "FWA",
+    description:
+      "FWA - showcasing innovation every day since 2000 FWA's mission is to showcase cutting edge creativity, regardless of the medium or technology used.",
+    url: "https://thefwa.com/",
+  },
+  {
+    img: "/imgs/resources/css-design-awards.jpg",
+    name: "CSS Design Awards",
+    description:
+      "CSS Design Awards. Be inspired, Be inspiring. Submit your website to the world's best CSS awards for a chance to win Site of the Day, UI awards UX awards ...",
+    url: "https://www.cssdesignawards.com/",
+  },
+  {
     img: "/imgs/resources/site-inspire.jpg",
     name: "Site Inspire",
     description:

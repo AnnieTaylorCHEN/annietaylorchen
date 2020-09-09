@@ -17,6 +17,13 @@ const devMagData = [
     url: "https://css-tricks.com/",
   },
   {
+    img: "/imgs/resources/codrops.jpg",
+    name: "Codrops",
+    description:
+      "Codrops is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities.",
+    url: "https://tympanus.net/codrops/",
+  },
+  {
     img: "/imgs/resources/shop-talk.jpg",
     name: "ShopTalk",
     description: "A live podcast about front end web design and UX.",

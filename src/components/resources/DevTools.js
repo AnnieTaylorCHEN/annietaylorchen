@@ -124,6 +124,13 @@ const devToolsData = [
       "Web technology information profiler tool, lead generation, competitive analysis and business intelligence tool providing technology adoption, ecommerce data and usage analytics for the internet.",
     url: "https://builtwith.com/",
   },
+  {
+    img: "/imgs/resources/keybase.jpg",
+    name: "Keybase",
+    description:
+      "Keybase is for keeping everyone's chats and files safe, from families to communities to companies. MacOS, Windows, Linux, iPhone, and Android.",
+    url: "https://keybase.io/",
+  },
 ];
 
 const DevTools = () => {

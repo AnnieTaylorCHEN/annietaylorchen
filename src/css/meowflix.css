@@ -3,6 +3,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
+    "video3 video3 video3 video3 video3"
     "story story video video video"
     "image image image image image"
     "video2 video2 video2 story2 story2"
@@ -45,10 +46,15 @@
     grid-area: image2;
 }
 
+.meowflix-video3 {
+    grid-area: video3;
+}
+
 @media (max-width: 1500px) {
     .meowflix-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
+        "video3"
         "story"
         "video"
         "image"

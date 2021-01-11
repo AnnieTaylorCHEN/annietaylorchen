@@ -26,23 +26,7 @@ const socialLinks = [
     img: "/imgs/social/goodreads.svg",
     alt: "annietaylorchen-goodreads",
     url: "https://www.goodreads.com/annietaylorchen",
-  },
-
-  // {
-  //   img: "/imgs/social/facebook.svg",
-  //   alt: "annietaylorchen-facebook",
-  //   url: "https://www.facebook.com/PetiteandMinimal/",
-  // },
-  {
-    img: "/imgs/social/twitter.svg",
-    alt: "annietaylorchen-twitter",
-    url: "https://twitter.com/annietaylorchen",
-  },
-  {
-    img: "/imgs/social/instagram.svg",
-    alt: "annietaylorchen-instagram",
-    url: "https://www.instagram.com/petiteandminimal/",
-  },
+  }, 
 ];
 
 export default function Footer() {
